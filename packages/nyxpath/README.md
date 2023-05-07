@@ -1,4 +1,4 @@
-![Cover](../../.github/assets/cover-nyxpath.jpg)
+![Cover](https://github.com/nyxblabs/nyxcfg/blob/main/.github/assets/cover-nyxpath.jpg)
 
 [![version][npm-v-src]][npm-v-href]
 [![downloads][npm-d-src]][npm-d-href]
