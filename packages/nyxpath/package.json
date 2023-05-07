@@ -1,0 +1,49 @@
+{
+  "name": "nyxpath",
+  "version": "0.0.2",
+  "description": "Universal filesystem path utils",
+  "author": "Dennis Ollhoff <contact@nxb.xyz>",
+  "license": "MIT",
+  "hompage": "https://💻nyxb.ws",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyxlabs/nyxcfg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nyxlabs/nyxcfg/issues"
+  },
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./utils": {
+      "types": "./dist/utils.d.ts",
+      "import": "./dist/utils.mjs",
+      "require": "./dist/utils.cjs"
+    }
+  },
+  "scripts": {
+    "prepublishOnly": "nyxr build",
+    "release": "pnpm vitest run && standard-version && pnpm publish",
+    "build": "unbuild",
+    "dev": "vitest",
+    "lint": "eslint --ext .ts .",
+    "test": "nyxr lint && vitest run --coverage",
+    "test:types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@nyxcfg/tsconfig": "workspace:*",
+    "standard-version": "latest",
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "dist",
+    "utils.d.ts"
+  ],
+  "keywords": []
+}
