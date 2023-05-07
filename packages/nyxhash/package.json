@@ -1,0 +1,42 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "description": "⚡ Super fast hashing library",
+  "author": "Dennis Ollhoff <contact@nyxb.xyz>",
+  "license": "MIT",
+  "hompage": "https://💻nyxb.ws",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyxlabs/utilities.git",
+    "directory": "packages/nyxhash"
+  },
+  "bugs": {
+    "url": "https://github.com/nyxlabs/utilities/issues"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Happy hacking\" && 💙"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "benchmark": "^2.1.4",
+    "c8": "^7.13.0",
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": []
+}
