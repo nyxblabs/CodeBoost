@@ -1,5 +1,5 @@
 {
-  "name": "nyxcfg-repository",
+  "name": "utilities",
   "private": true,
   "scripts": {
     "build": "turbo run build",
