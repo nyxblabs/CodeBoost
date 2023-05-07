@@ -1,5 +1,5 @@
 {
-  "name": "nyxcfg",
+  "name": "nyxcfg-repository",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -8,13 +8,21 @@
   },
   "devDependencies": {
     "@nyxb/eslint-config": "latest",
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@types/node": "^18.16.3",
+    "@vitest/coverage-c8": "^0.31.0",
     "eslint": "^8.39.0",
     "turbo": "latest",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "unbuild": "^1.2.1",
+    "vitest": "^0.31.0"
   },
   "packageManager": "pnpm@8.3.1",
   "engines": {
     "node": ">=16",
     "pnpm": ">=8"
+  },
+  "dependencies": {
+    "@nyxb/nyxi": "^0.0.28"
   }
 }

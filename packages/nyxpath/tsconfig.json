@@ -1,0 +1,9 @@
+{
+  "extends": "@nyxcfg/tsconfig/base.json",
+  "compilerOptions": {
+    "rootDir": "."
+  },
+  "include": [
+    "src", "utils.d.ts"
+  ],
+}
