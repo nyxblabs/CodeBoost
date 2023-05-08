@@ -7,7 +7,7 @@
   "hompage": "https://💻nyxb.ws",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nyxblabs/utilities.git",
+    "url": "git+https://https://github.com/nyxblabs/utilities/tree/main/packages/nyxdefer.git",
     "directory": "packages/nyxdefer"
   },
   "bugs": {

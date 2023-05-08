@@ -39,6 +39,15 @@ importers:
         specifier: ^0.31.0
         version: 0.31.0
 
+  packages/nyxdefaults:
+    devDependencies:
+      '@utilities/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
+      expect-type:
+        specifier: ^0.15.0
+        version: 0.15.0
+
   packages/nyxdefer:
     devDependencies:
       '@utilities/tsconfig':
@@ -2626,6 +2635,10 @@ packages:
       onetime: 6.0.0
       signal-exit: 3.0.7
       strip-final-newline: 3.0.0
+    dev: true
+
+  /expect-type@0.15.0:
+    resolution: {integrity: sha512-yWnriYB4e8G54M5/fAFj7rCIBiKs1HAACaY13kCz6Ku0dezjS9aMcfcdVK2X8Tv2tEV1BPz/wKfQ7WA4S/d8aA==}
     dev: true
 
   /fast-deep-equal@3.1.3:
