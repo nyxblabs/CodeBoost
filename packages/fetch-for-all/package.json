@@ -42,7 +42,13 @@
     }
   },
   "scripts": {
-    "test": "echo \"Happy hacking\" && 💙"
+    "build": "unbuild",
+    "lint": "eslint --ext .ts,.js,.mjs,.cjs .",
+    "lint:fix": "eslint --fix --ext .ts,.js,.mjs,.cjs .",
+    "prepack": "unbuild",
+    "changelog": "nyxlx changelogen --output",
+    "release": "nyxr test && pnpm publish",
+    "test": "nyxr lint && nyxr build && vitest run --coverage"
   },
   "dependencies": {},
   "devDependencies": {
