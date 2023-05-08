@@ -31,10 +31,10 @@ Import:
 
 ```ts
 // ESM
-import { hash, objectHash, murmurHash, sha256 } from "nyxhash";
+import { hash, murmurHash, objectHash, sha256 } from 'nyxhash'
 
 // CommonJS
-const { hash, objectHash, murmurHash, sha256 } = require("nyxhash");
+const { hash, objectHash, murmurHash, sha256 } = require('nyxhash')
 ```
 
 ### `hash(object, options?)`
@@ -44,10 +44,10 @@ Converts object value into a string hash using `objectHash` and then applies `sh
 Usage:
 
 ```ts
-import { hash } from "nyxhash";
+import { hash } from 'nyxhash'
 
 // "dZbtA7f0lK"
-console.log(hash({ foo: "bar" }));
+console.log(hash({ foo: 'bar' }))
 ```
 
 ### `objectHash(object, options?)`
@@ -57,10 +57,10 @@ Converts a nest object value into a stable and safe string for hashing.
 Usage:
 
 ```ts
-import { objectHash } from "nyxhash";
+import { objectHash } from 'nyxhash'
 
 // "object:1:string:3:foo:string:3:bar,"
-console.log(objectHash({ foo: "bar" }));
+console.log(objectHash({ foo: 'bar' }))
 ```
 
 ### `isEqual(obj1, obj2, options?)`
@@ -70,10 +70,10 @@ Compare two objects using reference equality and stable object hashing.
 Usage:
 
 ```ts
-import { isEqual } from "nyxhash";
+import { isEqual } from 'nyxhash'
 
 // true
-console.log(isEqual({ a: 1, b: 2 }, { b: 2, a: 1 }));
+console.log(isEqual({ a: 1, b: 2 }, { b: 2, a: 1 }))
 ```
 
 ### `diff(obj1, obj2, options?)`
@@ -85,31 +85,33 @@ Returned value is an array of diff entries with `$key`, `$hash`, `$value` and `$
 Usage:
 
 ```ts
-import { diff } from "nyxhash";
+import { diff } from 'nyxhash'
 
-const createObject = () => ({
-  foo: "bar",
-  nested: {
-    y: 123,
-    bar: {
-      baz: "123",
-    },
-  },
-});
+function createObject() {
+   return {
+      foo: 'bar',
+      nested: {
+         y: 123,
+         bar: {
+            baz: '123',
+         },
+      },
+   }
+}
 
-const obj1 = createObject();
-const obj2 = createObject();
+const obj1 = createObject()
+const obj2 = createObject()
 
-obj2.nested.x = 123;
-delete obj2.nested.y;
-obj2.nested.bar.baz = 123;
+obj2.nested.x = 123
+delete obj2.nested.y
+obj2.nested.bar.baz = 123
 
-const diff = diff(obj1, obj2);
+const diff = diff(obj1, obj2)
 
 // [-] Removed nested.y
 // [~] Changed nested.bar.baz from "123" to 123
 // [+] Added   nested.x
-console.log(diff(obj1, obj2));
+console.log(diff(obj1, obj2))
 ```
 
 ### `murmurHash(str)`
@@ -119,10 +121,10 @@ Converts input string (of any length) into a 32-bit positive integer using [Murm
 Usage:
 
 ```ts
-import { murmurHash } from "nyxhash";
+import { murmurHash } from 'nyxhash'
 
 // "2708020327"
-console.log(murmurHash("Hello World"));
+console.log(murmurHash('Hello World'))
 ```
 
 ### `sha256`
@@ -130,10 +132,10 @@ console.log(murmurHash("Hello World"));
 Create a secure [SHA 256](https://en.wikipedia.org/wiki/SHA-2) digest from input string.
 
 ```ts
-import { sha256 } from "nyxhash";
+import { sha256 } from 'nyxhash'
 
 // "a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e"
-console.log(sha256("Hello World"));
+console.log(sha256('Hello World'))
 ```
 
 ### `sha256base64`
@@ -141,10 +143,10 @@ console.log(sha256("Hello World"));
 Create a secure [SHA 256](https://en.wikipedia.org/wiki/SHA-2) digest in Base64 encoding from input string.
 
 ```ts
-import { sha256base64 } from "nyxhash";
+import { sha256base64 } from 'nyxhash'
 
 // "pZGm1Av0IEBKARczz7exkNYsZb8LzaMrV7J32a2fFG4"
-console.log(sha256base64("Hello World"));
+console.log(sha256base64('Hello World'))
 ```
 
 ## 💻 Development
