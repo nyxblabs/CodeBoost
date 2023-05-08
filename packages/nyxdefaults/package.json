@@ -18,7 +18,7 @@
   "types": "./dist/nyxdefaults.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/nyxdefaults.js",
+      "require": "./dist/nyxdefaults.cjs",
       "import": "./dist/nyxdefaults.mjs",
       "types": "./dist/nyxdefaults.d.ts"
     }
