@@ -1,6 +1,6 @@
 {
   "name": "fetch-for-all",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "🕸️ A better redistribution of node-fetch",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
