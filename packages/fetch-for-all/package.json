@@ -1,0 +1,58 @@
+{
+  "name": "fetch-for-all",
+  "version": "0.0.1",
+  "description": "🕸️ A better redistribution of `node-fetch",
+  "author": "Dennis Ollhoff <contact@nyxb.xyz>",
+  "license": "MIT",
+  "hompage": "https://💻nyxb.ws",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyxblabs/CodeBoost.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nyxblabs/CodeBoost/issues"
+  },
+  "main": "./lib/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "node": {
+        "require": "./lib/index.cjs",
+        "import": "./dist/index.mjs",
+        "types": "./lib/index.d.ts"
+      },
+      "import": "./dist/all.mjs",
+      "types": "./lib/index.d.ts"
+    },
+    "./polyfill": {
+      "node": {
+        "require": "./dist/polyfill.cjs",
+        "import": "./dist/polyfill.mjs"
+      },
+      "import": "./lib/empty.mjs"
+    },
+    "./node": {
+      "require": "./dist/node.cjs",
+      "import": "./dist/node.mjs"
+    },
+    "./src/index.js": {
+      "import": "./dist/index.mjs",
+      "types": "./lib/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Happy hacking\" && 💙"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@codeboost/tsconfig": "workspace:*",
+    "abort-controller": "^3.0.0",
+    "node-fetch": "^3.3.1"
+  },
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "keywords": []
+}
