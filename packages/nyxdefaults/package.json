@@ -13,9 +13,6 @@
   "bugs": {
     "url": "https://github.com/nyxlabs/utilities/issues"
   },
-  "bin": {
-    "example": "/dist/example.js"
-  },
   "main": "./dist/nyxdefaults.cjs",
   "module": "./dist/nyxdefaults.mjs",
   "types": "./dist/nyxdefaults.d.ts",
@@ -27,12 +24,13 @@
     }
   },
   "scripts": {
+    "prepublishOnly": "node prepare-readme-for-npm.js",
     "build": "unbuild",
     "dev": "vitest",
     "lint": "eslint --ext .ts src",
     "prepack": "nyxr build",
-    "release": "nyxr test && changelogen --output && pnpm publish",
-    "test": "nyxr lint && nyxr vitest run",
+    "release": "nyxr test && npx changelogen --output && pnpm publish",
+    "test": "nyxr lint && vitest run",
     "test:types": "tsc --noEmit"
   },
   "dependencies": {},

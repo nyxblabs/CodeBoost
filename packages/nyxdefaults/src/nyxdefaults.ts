@@ -59,7 +59,7 @@ export const nyxdefaults = createNyxdefaults() as NyxdefaultsInstance
 export default nyxdefaults
 
 // Custom version with function merge support
-export const defaultsFn = createNyxdefaults((object, key, currentValue) => {
+export const nyxdefaultsFn = createNyxdefaults((object, key, currentValue) => {
    if (
       typeof object[key] !== 'undefined'
     && typeof currentValue === 'function'
