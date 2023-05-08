@@ -1,6 +1,6 @@
 {
   "name": "nyxhash",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "⚡ Super fast hashing library",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
@@ -33,7 +33,7 @@
     "prepack": "unbuild",
     "release": "nyxr test &&  nyxlx changelogen --release --push && pnpm publish",
     "benchmark": "node benchmark/objectHash.mjs",
-    "test": "nyxr lint && vitest run"
+    "test": "nyxr lint && vitest run -u"
   },
   "dependencies": {},
   "devDependencies": {
