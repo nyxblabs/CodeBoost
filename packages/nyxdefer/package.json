@@ -1,6 +1,6 @@
 {
   "name": "nyxdefer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A lightweight and well-tested debounce function with native Promise support",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
@@ -26,11 +26,13 @@
     }
   },
   "scripts": {
+    "prepublishOnly": "node prepare-readme-for-npm.mjs && nyxr build",
     "build": "unbuild",
     "dev": "vitest dev",
     "lint": "eslint --ext .ts,.js,.mjs,.cjs .",
     "lint:fix": "eslint --ext .ts,.js,.mjs,.cjs . --fix",
-    "release": "nyxr test && nyxr build && npx changelogen --output && pnpm publish",
+    "release": "nyxr test && nyxr build && pnpm publish",
+    "changelog": "npx changelogen --output",
     "test": "vitest run --coverage"
   },
   "dependencies": {},
