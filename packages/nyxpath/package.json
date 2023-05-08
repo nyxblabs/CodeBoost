@@ -30,16 +30,16 @@
   },
   "scripts": {
     "prepublishOnly": "nyxr build",
-    "release": "pnpm vitest run && standard-version && pnpm publish",
+    "release": "pnpm vitest run && pnpm publish",
     "build": "unbuild",
     "dev": "vitest",
     "lint": "eslint --ext .ts .",
+    "changelog": "nyxlx changelogen --output",
     "test": "nyxr lint && vitest run --coverage",
     "test:types": "tsc --noEmit"
   },
   "devDependencies": {
     "@utilities/tsconfig": "workspace:*",
-    "standard-version": "latest",
     "typescript": "^5.0.4"
   },
   "files": [

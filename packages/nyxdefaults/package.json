@@ -29,7 +29,7 @@
     "build": "unbuild",
     "dev": "vitest",
     "lint": "eslint --ext .ts src",
-    "changelog": "npx changelogen --output",
+    "changelog": "nyxlx changelogen --output",
     "release": "nyxr test && pnpm publish",
     "test": "nyxr lint && vitest run",
     "test:types": "tsc --noEmit"
