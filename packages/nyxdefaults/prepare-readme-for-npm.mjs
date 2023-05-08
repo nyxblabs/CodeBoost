@@ -1,5 +1,5 @@
-import { copyFileSync, unlinkSync } from 'node:fs'
-import consolji from 'consolji'
+import { copyFileSync } from 'node:fs'
+import { consolji } from 'consolji'
 
 // Creates a temporary copy of the original README.md file
 copyFileSync('README.md', 'README-original.md')
@@ -8,13 +8,3 @@ copyFileSync('README.md', 'README-original.md')
 copyFileSync('README-npm.md', 'README.md')
 
 consolji.log('README.md updated for npm. Run pnpm publish now.')
-
-process.on('exit', () => {
-   // Restores the original README.md file from the temporary copy
-   copyFileSync('README-original.md', 'README.md')
-
-   // Deletes the temporary copy of the original README.md file
-   unlinkSync('README-original.md')
-
-   consolji.log('README.md restored to original version.')
-})
