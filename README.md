@@ -89,6 +89,41 @@ Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packa
 <h3 style="color:#14F195;">📦fetch-for-all</h3>
 
 A redistribution of node-fetch v3 for better backward and forward compatibility. It supports native global support and offers a compact build with zero dependencies. It can also support both CommonJS (require) and ESM (import) usage.
+<details>
+<summary><strong>Example:</strong></summary>
+More named exports:
+
+```ts
+// ESM
+import { fetch, Blob, FormData, Headers, Request, Response, AbortController } from 'fetch-for-all'
+
+// CommonJS
+const { fetch, Blob, FormData, Headers, Request, Response, AbortController } = require('fetch-for-all')
+```
+<br>
+Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/fetch-for-all/README.md">README</a> file.
+</details>
+
+<h3 style="color:#14F195;">📦 nyxjson</h3>
+
+Introducing nyxjson, a revolutionary package that provides a faster, more secure, and highly convenient alternative to the traditional JSON.parse method. With nyxjson, you can parse JSON data with lightning-fast speed and ensure maximum security, thanks to its advanced algorithms and techniques. Plus, nyxjson is written in modern ESM/Typescript and has no dependency on external libraries, making it a highly reliable and efficient solution for all your JSON parsing needs.
+<details>
+<summary><strong>Example:</strong></summary>
+More named exports:
+
+```ts
+**Fast fallback to input if is not string:**
+
+```ts
+// Uncaught SyntaxError: Unexpected token u in JSON at position 0
+JSON.parse()
+
+// undefined
+nyxjson()
+```
+<br>
+Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/nyxjson/README.md">README</a> file.
+</details>
 
 ## 🚀 Installation
 
