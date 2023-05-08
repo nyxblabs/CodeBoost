@@ -1,0 +1,43 @@
+{
+  "name": "nyxdefer",
+  "version": "0.0.1",
+  "description": "A lightweight and well-tested debounce function with native Promise support",
+  "author": "",
+  "license": "MIT",
+  "hompage": "https://💻nyxb.ws",
+  "repository": {
+    "type": "git",
+    "url": "git+https://exaple.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/example/issues"
+  },
+  "bin": {
+    "example": "/dist/example.js"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Happy hacking\" && 💙"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@utilities/tsconfig": "workspace:*",
+    "in-range": "^3.0.0",
+    "time-span": "^5.1.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": []
+}
