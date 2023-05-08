@@ -1,5 +1,5 @@
 {
-  "extends": "@nyxcfg/tsconfig/base.json",
+  "extends": "@utilities/tsconfig/base.json",
   "compilerOptions": {
     "rootDir": "."
   },

@@ -20,6 +20,9 @@ importers:
       '@vitest/coverage-c8':
         specifier: ^0.31.0
         version: 0.31.0(vitest@0.31.0)
+      consolji:
+        specifier: ^0.1.1
+        version: 0.1.1
       eslint:
         specifier: ^8.39.0
         version: 8.39.0
@@ -41,6 +44,9 @@ importers:
       '@types/node':
         specifier: ^18.15.13
         version: 18.16.3
+      '@utilities/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
       benchmark:
         specifier: ^2.1.4
         version: 2.1.4
@@ -53,7 +59,7 @@ importers:
 
   packages/nyxpath:
     devDependencies:
-      '@nyxcfg/tsconfig':
+      '@utilities/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       standard-version:
@@ -1518,7 +1524,6 @@ packages:
 
   /consolji@0.1.1:
     resolution: {integrity: sha512-GQQxV7EQAD/pMrWEglmSuK5pCVmKkJmShwDG/PVOqlpPhviQ+jzGFsfpCQEjUg5I8H7wlm9hQqzh+GnsHL6nnQ==}
-    dev: false
 
   /conventional-changelog-angular@5.0.13:
     resolution: {integrity: sha512-i/gipMxs7s8L/QeuavPF2hLnJgH6pEZAttySB6aiQLWcX3puWDL3ACVmvBhJGxnAy52Qc15ua26BufY6KpmrVA==}
