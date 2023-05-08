@@ -7,11 +7,11 @@
   "hompage": "https://💻nyxb.ws",
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/nyxblabs/utilities/tree/main/packages/nyxdefer.git",
+    "url": "git+https://https://github.com/nyxblabs/CodeBoost.git",
     "directory": "packages/nyxdefer"
   },
   "bugs": {
-    "url": "https://github.com/example/issues"
+    "url": "https://github.com/nyxblabs/CodeBoost/issues"
   },
   "sideEffects": false,
   "type": "module",
@@ -38,7 +38,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@utilities/tsconfig": "workspace:*",
+    "@codeboost/tsconfig": "workspace:*",
     "in-range": "^3.0.0",
     "time-span": "^5.1.0"
   },

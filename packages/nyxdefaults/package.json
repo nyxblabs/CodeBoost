@@ -7,11 +7,11 @@
   "hompage": "https://💻nyxb.ws",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nyxblabs/utilities.git",
+    "url": "git+https://github.com/nyxblabs/CodeBoost.git",
     "directory": "packages/nyxdefaults"
   },
   "bugs": {
-    "url": "https://github.com/nyxlabs/utilities/issues"
+    "url": "https://github.com/nyxblabs/CodeBoost/issues"
   },
   "main": "./dist/nyxdefaults.cjs",
   "module": "./dist/nyxdefaults.mjs",
@@ -36,7 +36,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@utilities/tsconfig": "workspace:*",
+    "@codeboost/tsconfig": "workspace:*",
     "expect-type": "^0.15.0"
   },
   "files": [
