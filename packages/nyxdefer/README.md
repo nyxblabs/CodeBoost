@@ -1,5 +1,6 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-nyxdefer_light.png#gh-light-mode-only">
+<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-nyxdefer_black.png#gh-dark-mode-only">
 </p>
 
 [![npm version][npm-version-src]][npm-version-href]
