@@ -29,7 +29,8 @@
     "dev": "vitest",
     "lint": "eslint --ext .ts src",
     "prepack": "nyxr build",
-    "release": "nyxr test && npx changelogen --output && pnpm publish",
+    "changelog": "npx changelogen --output",
+    "release": "nyxr test && pnpm publish",
     "test": "nyxr lint && vitest run",
     "test:types": "tsc --noEmit"
   },
