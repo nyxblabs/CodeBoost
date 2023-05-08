@@ -25,12 +25,14 @@
     }
   },
   "scripts": {
+    "prepublishOnly": "node prepare-readme-for-npm.mjs && nyxr build",
+    "postpublish": "node restore-readme.mjs",
     "bench": "nyxr build && node ./bench.cjs",
     "build": "unbuild",
     "dev": "vitest dev",
     "lint": "eslint --ext .ts .",
     "changelog": "nyxlx changelogen@latest --output",
-    "release": "pnpm test && pnpm build && pnpm publish",
+    "release": "pnpm test && pnpm publish",
     "test": "nyxr lint && vitest run --coverage"
   },
   "dependencies": {},
