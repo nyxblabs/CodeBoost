@@ -32,7 +32,7 @@
     "lint": "eslint --ext .ts,.js,.mjs,.cjs .",
     "lint:fix": "eslint --ext .ts,.js,.mjs,.cjs . --fix",
     "release": "nyxr test && pnpm publish",
-    "changelog": "npx changelogen --output",
+    "changelog": "nyxlx changelogen --output",
     "test": "vitest run --coverage"
   },
   "dependencies": {},
