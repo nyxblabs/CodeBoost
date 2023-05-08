@@ -152,8 +152,8 @@ fetch-for-all is published under the MIT LICENSE
 [packagephobia-src]: https://flat.badgen.net/packagephobia/install/fetch-for-all
 [packagephobia-href]: https://packagephobia.com/result?p=fetch-for-all
 
-[packagephobia-s-src]: https://flat.badgen.net/packagephobia/install/fetch-for-all?label=fetch-native&scale=.9
-[packagephobia-s-href]: https://packagephobia.com/result?p=fatch-for-all
+[packagephobia-s-src]: https://flat.badgen.net/packagephobia/install/fetch-for-all?label=fetch-for-all&scale=.9
+[packagephobia-s-href]: https://packagephobia.com/result?p=fetch-for-all
 
 [packagephobia-s-alt-src]: https://flat.badgen.net/packagephobia/install/node-fetch?label=node-fetch&scale=.9
 [packagephobia-s-alt-href]: https://packagephobia.com/result?p=node-fetch
