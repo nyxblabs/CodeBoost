@@ -1,13 +1,14 @@
 {
   "name": "nyxdefer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A lightweight and well-tested debounce function with native Promise support",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
   "hompage": "https://💻nyxb.ws",
   "repository": {
     "type": "git",
-    "url": "git+https://exaple.com.git"
+    "url": "git+https://github.com/nyxblabs/utilities.git",
+    "directory": "packages/nyxdefer"
   },
   "bugs": {
     "url": "https://github.com/example/issues"
