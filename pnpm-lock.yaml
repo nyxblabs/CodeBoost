@@ -39,6 +39,18 @@ importers:
         specifier: ^0.31.0
         version: 0.31.0
 
+  packages/nyxdefer:
+    devDependencies:
+      '@utilities/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
+      in-range:
+        specifier: ^3.0.0
+        version: 3.0.0
+      time-span:
+        specifier: ^5.1.0
+        version: 5.1.0
+
   packages/nyxhash:
     devDependencies:
       '@types/node':
@@ -1690,6 +1702,11 @@ packages:
       q: 1.5.1
     dev: true
 
+  /convert-hrtime@5.0.0:
+    resolution: {integrity: sha512-lOETlkIeYSJWcbbcvjRKGxVMXJR+8+OQb/mTPbA4ObPMytYIsUbuOE0Jzy60hjARYszq1id0j8KgVhC+WGZVTg==}
+    engines: {node: '>=12'}
+    dev: true
+
   /convert-source-map@1.9.0:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
     dev: true
@@ -3064,6 +3081,11 @@ packages:
   /imurmurhash@0.1.4:
     resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
     engines: {node: '>=0.8.19'}
+    dev: true
+
+  /in-range@3.0.0:
+    resolution: {integrity: sha512-CkN9NPifaLZftE3xdPVV7SH9fd9uC8qK4s1KUyz2r2DQqnGDdU+sVpzz55jr30RVWIuqwinHEm7Xsj4MgNZEcQ==}
+    engines: {node: '>=12'}
     dev: true
 
   /indent-string@4.0.0:
@@ -4714,6 +4736,13 @@ packages:
 
   /through@2.3.8:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
+    dev: true
+
+  /time-span@5.1.0:
+    resolution: {integrity: sha512-75voc/9G4rDIJleOo4jPvN4/YC4GRZrY8yy1uU4lwrB3XEQbWve8zXoO5No4eFrGcTAMYyoY67p8jRQdtA1HbA==}
+    engines: {node: '>=12'}
+    dependencies:
+      convert-hrtime: 5.0.0
     dev: true
 
   /time-zone@1.0.0:
