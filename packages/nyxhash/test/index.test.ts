@@ -7,7 +7,7 @@ describe('objectHash', () => {
       expect(
          objectHash({ foo: 'bar', bar: new Date(0), bool: false }),
       ).toMatchInlineSnapshot(
-         '"object:3:string:3:bar:string:24:1970-01-01T00:00:00.000Z,string:4:bool:bool:false,string:3:foo:string:3:bar,"',
+         '"object:6:string:3:bar:string:24:1970-01-01T00:00:00.000Z,string:4:bool:bool:false,string:3:foo:string:3:bar,string:9:prototype:Undefined,string:9:__proto__:object:3:string:9:prototype:Undefined,string:9:__proto__:Null,string:11:constructor:fn:string:8:[native],,string:11:constructor:fn:string:8:[native],"',
       )
    })
 
@@ -29,7 +29,7 @@ describe('objectHash', () => {
       }
 
       expect(objectHash(new Test())).toMatchInlineSnapshot(
-         '"object:2:string:3:bar:string:3:baz,string:3:foo:string:3:bar,"',
+         '"object:5:string:3:bar:string:3:baz,string:3:foo:string:3:bar,string:9:prototype:Undefined,string:9:__proto__:object:3:string:9:prototype:Undefined,string:9:__proto__:Null,string:11:constructor:fn:string:8:[native],,string:11:constructor:fn:string:8:[native],"',
       )
    })
 })
@@ -57,7 +57,7 @@ it('sha256base64', () => {
 })
 
 it('hash', () => {
-   expect(hash({ foo: 'bar' })).toMatchInlineSnapshot('"dZbtA7f0lK"')
+   expect(hash({ foo: 'bar' })).toMatchInlineSnapshot('"pqFQBJe9ul"')
 })
 
 describe('isEqual', () => {
