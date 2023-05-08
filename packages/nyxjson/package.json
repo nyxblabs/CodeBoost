@@ -1,6 +1,6 @@
 {
   "name": "nyxjson",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "⚡ A faster, secure and convenient alternative for JSON.parse",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
