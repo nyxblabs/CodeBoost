@@ -36,8 +36,6 @@ nyxdefaultsArrayFn({
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/nyxdefaults/README.md">README</a> file.
 </details>
 
---- 
-
 <h3 style="color:#14F195;">📦nyxdefer</h3>
 
 An improved debounce function with Promise support that is well-tested and highly configurable. Avoid duplicate function calls while promise is being resolved.
@@ -57,7 +55,6 @@ const nyxdeferred = debounce(async () => {
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/nyxdefer/README.md">README</a> file.
 </details>
 
----
 <h3 style="color:#14F195;">📦nyxhash</h3>
 
 A super-fast hashing library built specifically for Node.js development environments. It provides a fast hashing function that's particularly useful for processing large amounts of data.
@@ -77,7 +74,6 @@ console.log(hash({ foo: 'bar' }))
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/nyxhash/README.md">README</a> file.
 </details>
 
----
 <h3 style="color:#14F195;">📦nyxpath</h3>
 
 This package provides identical exports to Node.js's built-in path module but with normalization on all operations and written in modern ESM/Typescript. Plus, it has no dependency on Node.js! Mind-blowing, right?
@@ -90,12 +86,10 @@ Have you ever wondered why the path separators for Windows and macOS, Linux, and
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/nyxpath/README.md">README</a> file.
 </details>
 
----
 <h3 style="color:#14F195;">📦fetch-for-all</h3>
 
 A redistribution of node-fetch v3 for better backward and forward compatibility. It supports native global support and offers a compact build with zero dependencies. It can also support both CommonJS (require) and ESM (import) usage.
 
----
 ## 🚀 Installation
 
 You can install CodeBoost packages via NPM by running the following command:
