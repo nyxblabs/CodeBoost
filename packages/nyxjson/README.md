@@ -112,43 +112,43 @@ Locally try with `nyxr benchmark`. Below are esults on Node.js 18.11.0 with MBA 
 
 ```
 === Non-string fallback ==
-JSON.parse x 10,323,718 ops/sec ±0.45% (96 runs sampled)
-nyxjson x 1,057,268,114 ops/sec ±1.71% (90 runs sampled)
-nyxjson (strict) x 977,215,995 ops/sec ±1.43% (97 runs sampled)
+JSON.parse x 5,055,133 ops/sec ±1.49% (89 runs sampled)
+nyxjson x 692,414,582 ops/sec ±4.13% (76 runs sampled)
+nyxjson (strict) x 798,944,227 ops/sec ±3.01% (86 runs sampled)
 sjson:
-@hapi/bourne x 10,151,985 ops/sec ±0.76% (96 runs sampled)
-Fastest is nyxjson
+@hapi/bourne x 4,401,788 ops/sec ±4.41% (79 runs sampled)
+Fastest is nyxjson (strict)
 
 === Known values ==
-JSON.parse x 16,359,358 ops/sec ±0.90% (92 runs sampled)
-nyxjson x 107,849,085 ops/sec ±0.34% (97 runs sampled)
-nyxjson (strict) x 107,891,427 ops/sec ±0.34% (99 runs sampled)
-sjson x 14,216,957 ops/sec ±0.98% (89 runs sampled)
-@hapi/bourne x 15,209,152 ops/sec ±1.08% (88 runs sampled)
-Fastest is nyxjson (strict),nyxjson
+JSON.parse x 8,512,228 ops/sec ±4.18% (77 runs sampled)
+nyxjson x 48,124,313 ops/sec ±4.65% (75 runs sampled)
+nyxjson (strict) x 48,440,989 ops/sec ±5.44% (76 runs sampled)
+sjson x 6,990,805 ops/sec ±4.13% (78 runs sampled)
+@hapi/bourne x 7,895,428 ops/sec ±4.63% (77 runs sampled)
+Fastest is nyxjson,nyxjson (strict)
 
 === Plain string ==
-JSON.parse (try-catch) x 211,560 ops/sec ±0.84% (92 runs sampled)
-nyxjson x 60,315,113 ops/sec ±0.46% (98 runs sampled)
+JSON.parse (try-catch) x 64,066 ops/sec ±5.03% (73 runs sampled)
+nyxjson x 22,319,224 ops/sec ±5.21% (75 runs sampled)
 nyxjson (strict):
-sjson (try-catch) x 186,492 ops/sec ±0.70% (97 runs sampled)
+sjson (try-catch) x 95,467 ops/sec ±5.90% (69 runs sampled)
 @hapi/bourne:
 Fastest is nyxjson
 
 === standard object ==
-JSON.parse x 492,180 ops/sec ±0.98% (98 runs sampled)
-nyxjson x 356,819 ops/sec ±0.40% (98 runs sampled)
-nyxjson (strict) x 412,955 ops/sec ±0.88% (94 runs sampled)
-sjson x 437,376 ops/sec ±0.42% (102 runs sampled)
-@hapi/bourne x 457,020 ops/sec ±0.81% (99 runs sampled)
+JSON.parse x 166,726 ops/sec ±4.17% (77 runs sampled)
+nyxjson x 117,596 ops/sec ±4.24% (75 runs sampled)
+nyxjson (strict) x 117,769 ops/sec ±4.55% (75 runs sampled)
+sjson x 150,480 ops/sec ±4.14% (75 runs sampled)
+@hapi/bourne x 152,122 ops/sec ±5.23% (72 runs sampled)
 Fastest is JSON.parse
 
 === invalid syntax ==
-JSON.parse (try-catch) x 493,739 ops/sec ±0.51% (98 runs sampled)
-nyxjson x 405,848 ops/sec ±0.56% (100 runs sampled)
-nyxjson (strict) x 409,514 ops/sec ±0.57% (101 runs sampled)
-sjson (try-catch) x 435,406 ops/sec ±0.41% (100 runs sampled)
-@hapi/bourne x 467,163 ops/sec ±0.42% (99 runs sampled)
+JSON.parse (try-catch) x 166,171 ops/sec ±5.16% (74 runs sampled)
+nyxjson x 106,112 ops/sec ±6.03% (71 runs sampled)
+nyxjson (strict) x 123,743 ops/sec ±4.14% (79 runs sampled)
+sjson (try-catch) x 147,030 ops/sec ±5.21% (78 runs sampled)
+@hapi/bourne x 158,574 ops/sec ±4.31% (75 runs sampled)
 Fastest is JSON.parse (try-catch)
 ```
 
