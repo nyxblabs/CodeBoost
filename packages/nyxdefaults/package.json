@@ -1,0 +1,47 @@
+{
+  "name": "nyxdefaults",
+  "version": "0.0.1",
+  "description": "🔄 Recursively assign default properties. 💨 Lightweight and Fast!",
+  "author": "Dennis Ollhoff <contact@nyxb.xyz>",
+  "license": "MIT",
+  "hompage": "https://💻nyxb.ws",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyxblabs/utilities.git",
+    "directory": "packages/nyxdefaults"
+  },
+  "bugs": {
+    "url": "https://github.com/nyxlabs/utilities/issues"
+  },
+  "bin": {
+    "example": "/dist/example.js"
+  },
+  "main": "./dist/nyxdefaults.cjs",
+  "module": "./dist/nyxdefaults.mjs",
+  "types": "./dist/nyxdefaults.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/nyxdefaults.js",
+      "import": "./dist/nyxdefaults.mjs",
+      "types": "./dist/nyxdefaults.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "unbuild",
+    "dev": "vitest",
+    "lint": "eslint --ext .ts src",
+    "prepack": "nyxr build",
+    "release": "nyxr test && changelogen --output && pnpm publish",
+    "test": "nyxr lint && nyxr vitest run",
+    "test:types": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@utilities/tsconfig": "workspace:*",
+    "expect-type": "^0.15.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": []
+}
