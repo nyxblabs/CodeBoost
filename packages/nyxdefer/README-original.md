@@ -1,5 +1,6 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-nyxdefer_light.png#gh-light-mode-only">
+<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-nyxdefer_black.png#gh-dark-mode-only">
 </p>
 
 [![npm version][npm-version-src]][npm-version-href]
@@ -45,7 +46,7 @@ Debounce function:
 
 ```js
 const nyxdeferred = debounce(async () => {
-   // Some heavy stuff
+  // Some heavy stuff
 }, 25)
 ```
 
@@ -55,7 +56,7 @@ To avoid initial wait, we can set `leading: true` option. It will cause function
 
 ```js
 const nyxdeferred = debounce(async () => {
-   // Some heavy stuff
+  // Some heavy stuff
 }, 25, { leading: true })
 ```
 
@@ -63,7 +64,7 @@ If executing async function takes longer than nyxdefer value, duplicate calls wi
 
 ```js
 const nyxdeferred = nyxdefer(async () => {
-   // Some heavy stuff
+  // Some heavy stuff
 }, 25, { trailing: false })
 ```
 
