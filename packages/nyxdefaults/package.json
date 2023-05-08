@@ -24,7 +24,7 @@
     }
   },
   "scripts": {
-    "prepublishOnly": "node prepare-readme-for-npm.js",
+    "prepublishOnly": "node prepare-readme-for-npm.mjs",
     "build": "unbuild",
     "dev": "vitest",
     "lint": "eslint --ext .ts src",
