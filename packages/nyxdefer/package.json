@@ -29,7 +29,7 @@
     "dev": "vitest dev",
     "lint": "eslint --ext .ts,.js,.mjs,.cjs .",
     "lint:fix": "eslint --ext .ts,.js,.mjs,.cjs . --fix",
-    "release": "nyxr test && nyxr build && npx changelogen --release --push && pnpm publish",
+    "release": "nyxr test && nyxr build && npx changelogen --output && pnpm publish",
     "test": "vitest run --coverage"
   },
   "dependencies": {},
