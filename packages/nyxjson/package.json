@@ -1,0 +1,47 @@
+{
+  "name": "nyxjson",
+  "version": "0.0.1",
+  "description": "⚡ A faster, secure and convenient alternative for JSON.parse",
+  "author": "Dennis Ollhoff <contact@nyxb.xyz>",
+  "license": "MIT",
+  "hompage": "https://💻nyxb.ws",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyxlabs/CodeBoost.git",
+    "directory": "packages/nyxjson"
+  },
+  "bugs": {
+    "url": "https://github.com/example/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "bench": "nyxr build && node ./bench.cjs",
+    "build": "unbuild",
+    "dev": "vitest dev",
+    "lint": "eslint --ext .ts .",
+    "changelog": "nyxlx changelogen@latest --output",
+    "release": "pnpm test && pnpm build && pnpm publish",
+    "test": "nyxr lint && vitest run --coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@codeboost/tsconfig": "workspace:*",
+    "@hapi/bourne": "^3.0.0",
+    "benchmark": "^2.1.4",
+    "secure-json-parse": "^2.7.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": []
+}
