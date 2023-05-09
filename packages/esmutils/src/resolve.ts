@@ -1,6 +1,6 @@
 import { existsSync, realpathSync } from 'node:fs'
 import { pathToFileURL } from 'node:url'
-import { joinURL } from 'ufo'
+import { joinURL } from 'url-ops'
 import { isAbsolute } from 'nyxpath'
 import { moduleResolve } from 'import-meta-resolve'
 import { fileURLToPath, normalizeid } from './utils'
@@ -109,7 +109,7 @@ function _resolve(id: string, options: ResolveOptions = {}): string {
       const error = new Error(
       `Cannot find module ${id} imported from ${urls.join(', ')}`,
       )
-      // @ts-expect-error
+      // @ts-expect-error is fine
       error.code = 'ERR_MODULE_NOT_FOUND'
       throw error
    }
