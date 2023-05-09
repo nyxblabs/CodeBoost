@@ -12,7 +12,7 @@
 >
 >🚀 This package is a drop-in replacement for the Node.js path module and ensures that paths are normalized with a slash `/` for consistent code behavior across all environments, including Node.js. So why not give nyxpath a try and start enjoying normalized paths? 🔧
 >
->🌟 With pathe, you can rest assured that your code will behave consistently and seamlessly, regardless of the operating system you are using. Happy coding! 🚀
+>🌟 With nyxpath, you can rest assured that your code will behave consistently and seamlessly, regardless of the operating system you are using. Happy coding! 🚀
 
 
 ## 🛠️ Usage
