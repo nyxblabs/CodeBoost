@@ -1,12 +1,12 @@
 # CodeBoost 🚀💻💪
 
-CodeBoost is a powerful monorepo of Node.js tools and libraries designed to boost developer productivity and code quality. It contains several packages, each providing different features, such as an improved debounce function with promise support, a lightning-fast hashing library, and much more!
+🚀 CodeBoost is a comprehensive monorepo of Node.js tools and libraries designed to enhance developer productivity and code quality. It offers a suite of packages, including a fast hashing library, an improved debounce function with promise support, and much more! 💻 Boost your Node.js development experience with CodeBoost's powerful features and improve your coding efficiency. 🧰 Choose from a variety of packages that best fit your needs and start coding smarter today!
 
 <h2 style="color:#9945FF;">📦 Packages</h2>
 
 <h3 style="color:#14F195;">📦nyxdefaults</h3>
 
-Assign default properties recursively and lightning-fast! This package provides a highly efficient way for developers to set default values for objects.
+🔧 This package offers lightning-fast default property assignment for objects, providing an efficient solution for developers. 💡 Simplify your code and save time with its recursive property assignment feature.
 <details>
 <summary><strong>Example:</strong></summary>
 
@@ -38,7 +38,7 @@ Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packa
 
 <h3 style="color:#14F195;">📦nyxdefer</h3>
 
-An improved debounce function with Promise support that is well-tested and highly configurable. Avoid duplicate function calls while promise is being resolved.
+🔄 Avoid duplicate function calls and improve performance with this highly configurable debounce function that also supports Promises. 💡 With well-tested functionality, you can trust that your function will only be called once while the Promise is being resolved.
 <details>
 <summary><strong>Example:</strong></summary>
 
@@ -57,7 +57,7 @@ Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packa
 
 <h3 style="color:#14F195;">📦nyxhash</h3>
 
-A super-fast hashing library built specifically for Node.js development environments. It provides a fast hashing function that's particularly useful for processing large amounts of data.
+🔒 This package provides a super-fast hashing library optimized for Node.js environments. 💨 With its high-speed hashing function, it's perfect for processing large data sets efficiently.
 <details>
 <summary><strong>Example:</strong></summary>
 Converts object value into a string hash using `objectHash` and then applies `sha256` with Base64 encoding (trimmed by length of 10).
@@ -76,7 +76,7 @@ Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packa
 
 <h3 style="color:#14F195;">📦nyxpath</h3>
 
-This package provides identical exports to Node.js's built-in path module but with normalization on all operations and written in modern ESM/Typescript. Plus, it has no dependency on Node.js! Mind-blowing, right?
+📦🔗 This package offers identical exports to Node.js's built-in path module, but with normalization on all operations and written in modern ESM/Typescript. 🌟 Plus, it has no dependency on Node.js! 🤯 Mind-blowing, right?
 <details>
 <summary><strong>Info:</strong></summary>
 Have you ever wondered why the path separators for Windows and macOS, Linux, and other Posix operating systems are different? It turns out that for 🕰️ historical reasons, Windows chose to use backslashes `\` for separating paths instead of the slash `/` used by other operating systems. Nowadays, [Windows](https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file?redirectedfrom=MSDN) supports both slashes and backslashes for paths, but this can lead to inconsistent code behavior. When running on a Windows operating system, Node.js's built-in [path module](https://nodejs.org/api/path.html) assumes that Windows-style paths are being used, which makes for inconsistent code behavior between Windows and POSIX.
@@ -88,7 +88,7 @@ Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packa
 
 <h3 style="color:#14F195;">📦fetch-for-all</h3>
 
-A redistribution of node-fetch v3 for better backward and forward compatibility. It supports native global support and offers a compact build with zero dependencies. It can also support both CommonJS (require) and ESM (import) usage.
+🔄 A redistribution of node-fetch v3 for better backward and forward compatibility. 🔋 It supports native global support and offers a compact build with zero dependencies. 💻📦 It can also support both CommonJS (require) and ESM (import) usage.
 <details>
 <summary><strong>Example:</strong></summary>
 More named exports:
@@ -106,7 +106,7 @@ Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packa
 
 <h3 style="color:#14F195;">📦 nyxjson</h3>
 
-Introducing nyxjson, a revolutionary package that provides a faster, more secure, and highly convenient alternative to the traditional JSON.parse method. With nyxjson, you can parse JSON data with lightning-fast speed and ensure maximum security, thanks to its advanced algorithms and techniques. Plus, nyxjson is written in modern ESM/Typescript and has no dependency on external libraries, making it a highly reliable and efficient solution for all your JSON parsing needs.
+📈 This package fills the gaps in essential ESM module features for Node.js. 💡 Enhance your Node.js development with optimal ESM support. 🔌 Lightning-fast default property assignment for objects. 🚀 Stay ahead of the curve with this package.
 <details>
 <summary><strong>Example:</strong></summary>
 More named exports:
@@ -123,6 +123,82 @@ nyxjson()
 ```
 <br>
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/nyxjson/README.md">README</a> file.
+</details>
+
+<h3 style="color:#14F195;">📦esmnxuts</h3>
+
+💡 Set default object properties quickly and easily with lightning-fast performance using this package. Perfect for developers looking to streamline their coding process, it offers an efficient way to assign default properties to objects. ⚡️ Get your work done in a flash with this package's lightning-fast performance.
+<details>
+<summary><strong>Example:</strong></summary>
+
+## Resolving ESM modules
+
+Several utilities to make ESM resolution easier:
+
+- Respecting [ECMAScript Resolver algorithm](https://nodejs.org/dist/latest-v14.x/docs/api/esm.html#esm_resolver_algorithm)
+- Exposed from Node.js implementation
+- Windows paths normalized
+- Supporting custom `extensions` and `/index` resolution
+- Supporting custom `conditions`
+- Support resolving from multiple paths or urls
+<br>
+Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/esmnxuts/README.md">README</a> file.
+</details>
+
+<h3 style="color:#14F195;">📦pkg-def</h3>
+
+🔧📦 Enhance your Node.js dev experience with powerful utils and TypeScript definitions for managing package.json and tsconfig.json files.
+<details>
+<summary><strong>Example:</strong></summary>
+
+### `readPackageJSON`
+
+```js
+import { readPackageJSON } from 'pkg-def'
+const localPackageJson = await readPackageJSON()
+// or
+const packageJson = await readPackageJSON('/fully/resolved/path/to/folder')
+```
+
+### `writePackageJSON`
+
+```js
+import { writePackageJSON } from 'pkg-def'
+
+await writePackageJSON('path/to/package.json', pkg)
+```
+<br>
+Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/pkg-def/README.md">README</a> file.
+</details>
+
+<h3 style="color:#14F195;">📦url-ops</h3>
+
+🔗🚀 Powerful URL operations for Node.js with url-ops. Simplify your URL manipulation with a collection of functions that ensures properly encoded and consistent URLs. Normalize, resolve, and parse URLs with ease.
+<details>
+<summary><strong>Example:</strong></summary>
+
+### `normalizeURL`
+
+- Ensures URL is properly encoded
+- Ensures pathname starts with slash
+- Preserves protocol/host if provided
+
+```ts
+normalizeURL('test?query=123 123#hash, test')
+// test?query=123%20123#hash,%20test
+
+normalizeURL('http://localhost:3000')
+// http://localhost:3000/
+```
+
+### `joinURL`
+
+```ts
+joinURL('a', '/b', '/c')
+// a/b/c
+```
+<br>
+Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/url-ops/README.md">README</a> file.
 </details>
 
 ## 🚀 Installation
