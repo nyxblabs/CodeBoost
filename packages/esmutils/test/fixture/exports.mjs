@@ -1,5 +1,5 @@
-export * from "pathe";
+export * from 'nyxpath'
 
-export { resolve as _resolve } from "pathe";
+export { resolve as _resolve } from 'nyxpath'
 
-export const foo = "bar";
+export const foo = 'bar'

@@ -1,6 +1,7 @@
-import { evalModule, loadModule, fileURLToPath } from "mlly";
+import { consolji } from 'consolji'
+import { evalModule, fileURLToPath, loadModule } from 'esmutils'
 
-await evalModule('console.log("Eval works!")');
+await evalModule('console.log("Eval works!")')
 
 await evalModule(
   `
@@ -8,18 +9,18 @@ await evalModule(
   console.log(reverse('!emosewa si sj'))
 `,
   {
-    url: fileURLToPath(import.meta.url),
-  }
-);
+     url: fileURLToPath(import.meta.url),
+  },
+)
 
-await loadModule("./hello.mjs", { url: import.meta.url });
+await loadModule('./hello.mjs', { url: import.meta.url })
 
-console.log(
-  await loadModule("../../package.json", { url: import.meta.url }).then(
-    (r) => r.default.name
-  )
-);
+consolji.log(
+   await loadModule('../../package.json', { url: import.meta.url }).then(
+      r => r.default.name,
+   ),
+)
 
-await loadModule("./eval-err.mjs", { url: import.meta.url }).catch((e) =>
-  console.error(e)
-);
+await loadModule('./eval-err.mjs', { url: import.meta.url }).catch(e =>
+   console.error(e),
+)
