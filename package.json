@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@nyxb/nyxi": "^0.0.28",
-    "acorn": "^8.8.2"
+    "acorn": "^8.8.2",
+    "url-ops": "workspace:^"
   }
 }

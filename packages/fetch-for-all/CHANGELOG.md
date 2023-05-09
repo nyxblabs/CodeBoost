@@ -39,7 +39,7 @@
 
 ### 🎨 Styles
 
-  - **README.md): fix typo in nyxpath package name 📝 docs(README.md:** Update nyxpath package name in description and README The package name was incorrectly referred to as "pathe" in the nyxpath package description and README. This commit fixes the typo and updates the package name to "nyxpath" in both places. ([f2c63c9](https://github.com/nyxblabs/CodeBoost/commit/f2c63c9))
+  - **README.md): fix typo in nyxpath package name 📝 docs(README.md:** Update nyxpath package name in description and README The package name was incorrectly referred to as "nyxpath" in the nyxpath package description and README. This commit fixes the typo and updates the package name to "nyxpath" in both places. ([f2c63c9](https://github.com/nyxblabs/CodeBoost/commit/f2c63c9))
 
 ### ❤️  Contributors
 

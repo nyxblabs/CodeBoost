@@ -1,29 +1,36 @@
 {
   "name": "pkg-def",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "🔧 Enhance your Node.js development experience with powerful utilities and TypeScript definitions for managing your `package.json` and `tsconfig.json files`.",
+  "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
   "hompage": "https://💻nyxb.ws",
   "repository": {
     "type": "git",
-    "url": "git+https://example.com.git"
+    "url": "git+https://github.com/nyxblabs/CodeBoost.git",
+    "directory": "packages/pkg-def"
   },
   "bugs": {
-    "url": "https://github.com/example/issues"
+    "url": "https://github.com/nyxblabs/CodeBoost/issues"
   },
-  "main": "example.js",
-  "module": "example.js",
-  "types": "example.d.ts",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
   "exports": {
-    ".": {
-      "require": "./dist/example.js",
-      "import": "./dist/example.mjs",
-      "types": "./dist/example.d.ts"
-    }
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
   },
   "scripts": {
-    "test": "echo \"Happy hacking\" && 💙"
+    "build": "unbuild",
+    "prepack": "unbuild",
+    "dev": "vitest",
+    "release": "nyxr test && pnpm publish",
+    "lint": "eslint --ext .ts,.js,.mjs,.cjs .",
+    "lint:fix": "eslint --fix --ext .ts,.js,.mjs,.cjs .",
+    "test": "vitest run --coverage",
+    "test:types": "tsc --noEmit --module esnext --skipLibCheck --moduleResolution node ./test/*.test.ts",
+    "changelog": "nyxlx changelogen --output"
   },
   "dependencies": {
     "esmutils": "workspace:*",
@@ -31,8 +38,11 @@
     "jsonc-parser": "^3.2.0"
   },
   "devDependencies": {
-    "@codeboost/tsconfig": "workspace:*"
+    "@codeboost/tsconfig": "workspace:*",
+    "expect-type": "^0.15.0"
   },
-  "files": [],
+  "files": [
+    "dist"
+  ],
   "keywords": []
 }

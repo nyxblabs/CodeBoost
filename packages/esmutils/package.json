@@ -1,17 +1,17 @@
 {
   "name": "esmutils",
   "version": "0.0.1",
-  "description": "📦 Missing ESM utils for Node.js! Fill the gap with ease.",
+  "description": " 🛠️ Missing ESM utils for Node.js! Fill the gap with ease.",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
   "hompage": "https://💻nyxb.ws",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodeBoost.git",
+    "url": "git+https://github.com/nyxlabs/CodeBoost.git",
     "directory": "packages/esmutils"
   },
   "bugs": {
-    "url": "https://github.com/example/issues"
+    "url": "https://github.com/nyxlabs/CodeBoost/issues"
   },
   "sideEffects": false,
   "type": "module",
@@ -33,7 +33,8 @@
   "dependencies": {
     "acorn": "^8.8.2",
     "nyxpath": "^0.0.3",
-    "pkg-def": "workspace:*"
+    "pkg-def": "workspace:*",
+    "url-ops": "workspace:^"
   },
   "devDependencies": {
     "@codeboost/tsconfig": "workspace:*",

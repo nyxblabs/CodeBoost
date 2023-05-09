@@ -10,6 +10,9 @@ importers:
       acorn:
         specifier: ^8.8.2
         version: 8.8.2
+      url-ops:
+        specifier: workspace:^
+        version: link:packages/url-ops
     devDependencies:
       '@nyxb/eslint-config':
         specifier: latest
@@ -56,6 +59,9 @@ importers:
       pkg-def:
         specifier: workspace:*
         version: link:../pkg-def
+      url-ops:
+        specifier: workspace:^
+        version: link:../url-ops
     devDependencies:
       '@codeboost/tsconfig':
         specifier: workspace:*
@@ -160,6 +166,9 @@ importers:
       '@codeboost/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
+      expect-type:
+        specifier: ^0.15.0
+        version: 0.15.0
 
   packages/tsconfig: {}
 
