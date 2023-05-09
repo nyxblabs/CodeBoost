@@ -10,6 +10,9 @@ importers:
       acorn:
         specifier: ^8.8.2
         version: 8.8.2
+      esmnxuts:
+        specifier: workspace:^
+        version: link:packages/esmnxuts
       url-ops:
         specifier: workspace:^
         version: link:packages/url-ops
