@@ -32,13 +32,13 @@ Import:
 
 ```ts
 // CommonJS
-const { normalizeURL, joinURL } = require('url-ops')
-
 // ESM
-import { normalizeURL, joinURL } from 'url-ops'
+import { parseURL } from 'https://unpkg.com/url-ops/dist/index.mjs'
+import { joinURL, normalizeURL } from 'url-ops'
 
 // Deno
-import { parseURL } from 'https://unpkg.com/url-ops/dist/index.mjs'
+
+const { normalizeURL, joinURL } = require('url-ops')
 ```
 
 **Notice:** You may need to transpile package and add URL polyfill for legacy environments

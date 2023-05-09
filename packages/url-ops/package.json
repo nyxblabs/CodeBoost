@@ -1,6 +1,6 @@
 {
   "name": "url-ops",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "🔗 Powerful and easy-to-use URL operations for Node.js developers with url-ops.",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
@@ -32,7 +32,8 @@
     "lint:fix": "eslint --fix --ext .ts .",
     "prepack": "nyxr build",
     "release": "nyxr test && pnpm publish",
-    "test": "nyxr lint && vitest run"
+    "test": "nyxr lint && vitest run",
+    "changelog": "nyxlx changelogen --output"
   },
   "dependencies": {},
   "devDependencies": {
