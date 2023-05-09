@@ -1,8 +1,7 @@
-/* eslint-disable import/export */
 import { promises as fsp } from 'node:fs'
 import { dirname, isAbsolute, resolve } from 'nyxpath'
-import type { ResolveOptions as _ResolveOptions } from 'esmutils'
-import { resolvePath } from 'esmutils'
+import type { ResolveOptions as _ResolveOptions } from 'esmnxuts'
+import { resolvePath } from 'esmnxuts'
 import type { FindFileOptions } from './utils'
 import { findFile, findNearestFile } from './utils'
 import type { PackageJson, TSConfig } from './types'
