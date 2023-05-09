@@ -27,7 +27,7 @@ export async function evalModule(
    return import(dataURL).catch((error) => {
       error.stack = error.stack.replace(
          new RegExp(dataURL, 'g'),
-         options.url || '_mlly_eval_',
+         options.url || '_esmutils_eval_',
       )
       throw error
    })
