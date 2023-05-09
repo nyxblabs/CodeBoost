@@ -1,0 +1,45 @@
+{
+  "name": "url-ops",
+  "version": "0.0.1",
+  "description": "🔗 Powerful and easy-to-use URL operations for Node.js developers with url-ops.",
+  "author": "Dennis Ollhoff <contact@nyxb.xyz>",
+  "license": "MIT",
+  "hompage": "https://💻nyxb.ws",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyxlabs/CodeBoost.git",
+    "directory": "packages/url-ops"
+  },
+  "bugs": {
+    "url": "https://github.com/nyxlabs/CodeBoost/issues"
+  },
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    },
+    "./*": "./*"
+  },
+  "scripts": {
+    "build": "unbuild",
+    "dev": "vitest",
+    "lint": "eslint --ext .ts .",
+    "lint:fix": "eslint --fix --ext .ts .",
+    "prepack": "nyxr build",
+    "release": "nyxr test && pnpm publish",
+    "test": "nyxr lint && vitest run"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@codeboost/tsconfig": "workspace:*"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": []
+}
