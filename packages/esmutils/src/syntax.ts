@@ -76,6 +76,7 @@ export async function isValidNodeImport(
       return false
 
    const package_ = await readPackageJSON(resolvedPath).catch(() => {})
+   // @ts-expect-error is fine
    if (package_?.type === 'module')
       return true
 
