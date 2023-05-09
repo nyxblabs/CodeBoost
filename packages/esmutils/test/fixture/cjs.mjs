@@ -1,6 +1,7 @@
-import { createCommonJS } from "mlly";
+import { consolji } from 'consolji'
+import { createCommonJS } from 'esmutils'
 
-const cjs = createCommonJS(import.meta.url);
+const cjs = createCommonJS(import.meta.url)
 
-console.log(cjs);
-console.log(cjs.require.resolve("../../package.json"));
+consolji.log(cjs)
+consolji.log(cjs.require.resolve('../../package.json'))
