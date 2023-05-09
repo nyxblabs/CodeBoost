@@ -7,6 +7,9 @@ importers:
       '@nyxb/nyxi':
         specifier: ^0.0.28
         version: 0.0.28
+      acorn:
+        specifier: ^8.8.2
+        version: 8.8.2
     devDependencies:
       '@nyxb/eslint-config':
         specifier: latest
@@ -26,6 +29,9 @@ importers:
       eslint:
         specifier: ^8.39.0
         version: 8.39.0
+      import-meta-resolve:
+        specifier: ^3.0.0
+        version: 3.0.0
       turbo:
         specifier: latest
         version: 1.9.3
@@ -38,6 +44,31 @@ importers:
       vitest:
         specifier: ^0.31.0
         version: 0.31.0
+
+  packages/esmutils:
+    dependencies:
+      acorn:
+        specifier: ^8.8.2
+        version: 8.8.2
+      nyxpath:
+        specifier: ^0.0.3
+        version: link:../nyxpath
+      pkg-def:
+        specifier: workspace:*
+        version: link:../pkg-def
+    devDependencies:
+      '@codeboost/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
+      '@types/node':
+        specifier: ^20.1.1
+        version: 20.1.1
+      c8:
+        specifier: ^7.13.0
+        version: 7.13.0
+      import-meta-resolve:
+        specifier: ^3.0.0
+        version: 3.0.0
 
   packages/fetch-for-all:
     devDependencies:
@@ -114,7 +145,29 @@ importers:
         specifier: ^5.0.4
         version: 5.0.4
 
+  packages/pkg-def:
+    dependencies:
+      esmutils:
+        specifier: workspace:*
+        version: link:../esmutils
+      jsonc-parser:
+        specifier: ^3.2.0
+        version: 3.2.0
+      nyxpath:
+        specifier: ^0.0.3
+        version: link:../nyxpath
+    devDependencies:
+      '@codeboost/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
+
   packages/tsconfig: {}
+
+  packages/url-ops:
+    devDependencies:
+      '@codeboost/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
 
 packages:
 
@@ -931,6 +984,10 @@ packages:
     resolution: {integrity: sha512-OPs5WnnT1xkCBiuQrZA4+YAV4HEJejmHneyraIaxsbev5yCEr6KMwINNFP9wQeFIw8FWcoTqF3vQsa5CDaI+8Q==}
     dev: true
 
+  /@types/node@20.1.1:
+    resolution: {integrity: sha512-uKBEevTNb+l6/aCQaKVnUModfEMjAl98lw2Si9P5y4hLu9tm6AlX2ZIoXZX6Wh9lJueYPrGPKk5WMCNHg/u6/A==}
+    dev: true
+
   /@types/normalize-package-data@2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
     dev: true
@@ -1153,7 +1210,6 @@ packages:
     resolution: {integrity: sha512-xjIYgE8HBrkpd/sJqOGNspf8uHG+NOHGOw6a/Urj8taM2EXfdNAH2oFcPeIFfsv3+kz/mJrS5VuMqbNLjCa2vw==}
     engines: {node: '>=0.4.0'}
     hasBin: true
-    dev: true
 
   /ajv@6.12.6:
     resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==}
@@ -2778,6 +2834,10 @@ packages:
       resolve-from: 4.0.0
     dev: true
 
+  /import-meta-resolve@3.0.0:
+    resolution: {integrity: sha512-4IwhLhNNA8yy445rPjD/lWh++7hMDOml2eHtd58eG7h+qK3EryMuuRbsHGPikCoAgIkkDnckKfWSk2iDla/ejg==}
+    dev: true
+
   /imurmurhash@0.1.4:
     resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
     engines: {node: '>=0.8.19'}
@@ -3150,7 +3210,6 @@ packages:
 
   /jsonc-parser@3.2.0:
     resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
-    dev: true
 
   /jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}

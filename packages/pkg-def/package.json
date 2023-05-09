@@ -1,5 +1,5 @@
 {
-  "name": "example",
+  "name": "pkg-def",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -11,9 +11,6 @@
   },
   "bugs": {
     "url": "https://github.com/example/issues"
-  },
-  "bin": {
-    "example": "/dist/example.js"
   },
   "main": "example.js",
   "module": "example.js",
@@ -28,7 +25,11 @@
   "scripts": {
     "test": "echo \"Happy hacking\" && 💙"
   },
-  "dependencies": {},
+  "dependencies": {
+    "esmutils": "workspace:*",
+    "nyxpath": "^0.0.3",
+    "jsonc-parser": "^3.2.0"
+  },
   "devDependencies": {
     "@codeboost/tsconfig": "workspace:*"
   },
