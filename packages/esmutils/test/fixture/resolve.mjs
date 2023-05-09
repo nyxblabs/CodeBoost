@@ -1,11 +1,12 @@
-import { resolvePath, createResolve, resolveImports } from "mlly";
+import { consolji } from 'consolji'
+import { createResolve, resolveImports, resolvePath } from 'esmutils'
 
-const resolve = createResolve({ url: import.meta.url });
-console.log(await resolve("./cjs.mjs"));
+const resolve = createResolve({ url: import.meta.url })
+consolji.log(await resolve('./cjs.mjs'))
 
-console.log(await resolvePath("./cjs.mjs", { url: import.meta.url }));
-console.log(await resolvePath("./foo", { url: import.meta.url }));
+consolji.log(await resolvePath('./cjs.mjs', { url: import.meta.url }))
+consolji.log(await resolvePath('./foo', { url: import.meta.url }))
 
-console.log(
-  await resolveImports("import foo from './eval.mjs'", { url: import.meta.url })
-);
+consolji.log(
+   await resolveImports('import foo from \'./eval.mjs\'', { url: import.meta.url }),
+)
