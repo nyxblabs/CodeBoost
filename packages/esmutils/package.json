@@ -28,7 +28,8 @@
     "dev": "vitest",
     "lint": "eslint --ext .ts,.js src test",
     "release": "nyxr test && nyxr build && pnpm publish",
-    "test": "nyxr lint && vitest run"
+    "test": "nyxr lint && vitest run",
+    "changelog": "nyxlx changelogen@latest --output"
   },
   "dependencies": {
     "acorn": "^8.8.2",

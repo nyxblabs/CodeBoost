@@ -1,1 +1,2 @@
-export default "esm-module";
+/* eslint-disable import/no-anonymous-default-export */
+export default 'esm-module'

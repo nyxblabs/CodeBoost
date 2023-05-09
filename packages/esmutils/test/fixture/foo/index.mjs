@@ -1,1 +1,3 @@
-console.log(import.meta.url);
+import consolji from 'consolji'
+
+consolji.log(import.meta.url)

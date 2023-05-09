@@ -1,2 +1,4 @@
-// @ts-ignore
-console.log(await Promise.resolve("foo"));
+const { consolji } = require('consolji')
+
+// @ts-expect-error is fine
+consolji.log(await Promise.resolve('foo'))
