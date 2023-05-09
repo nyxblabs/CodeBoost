@@ -22,10 +22,11 @@
     "require": "./dist/index.cjs"
   },
   "scripts": {
+    "prepublishOnly": "node prepare-readme-for-npm.mjs && nyxr build",
+    "postpublish": "node restore-readme.mjs",
     "build": "unbuild",
-    "prepack": "unbuild",
     "dev": "vitest",
-    "release": "nyxr test && pnpm publish",
+    "release": "pnpm publish",
     "lint": "eslint --ext .ts,.js,.mjs,.cjs .",
     "lint:fix": "eslint --fix --ext .ts,.js,.mjs,.cjs .",
     "test": "vitest run --coverage",
