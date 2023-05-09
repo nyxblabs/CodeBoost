@@ -1,6 +1,6 @@
 {
   "name": "url-ops",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "🔗 Powerful and easy-to-use URL operations for Node.js developers with url-ops.",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
@@ -26,6 +26,8 @@
     "./*": "./*"
   },
   "scripts": {
+    "prepublishOnly": "node prepare-readme-for-npm.mjs && nyxr build",
+    "postpublish": "node restore-readme.mjs",
     "build": "unbuild",
     "dev": "vitest",
     "lint": "eslint --ext .ts .",
