@@ -3,7 +3,7 @@ import { normalizeWindowsPath } from './_internal'
 
 const pathSeparators = new Set(['/', '\\', undefined])
 
-const normalizedAliasSymbol = Symbol.for('pathe:normalizedAlias')
+const normalizedAliasSymbol = Symbol.for('nyxpath:normalizedAlias')
 
 export function normalizeAliases(_aliases: Record<string, string>) {
    if ((_aliases as any)[normalizedAliasSymbol])
