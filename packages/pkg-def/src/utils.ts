@@ -1,5 +1,5 @@
 import { statSync } from 'node:fs'
-import { join, resolve } from 'pathe'
+import { join, resolve } from 'nyxpath'
 
 export interface FindFileOptions {
    /**
