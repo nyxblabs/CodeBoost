@@ -136,4 +136,4 @@ const pkg = defineTSConfig({})
 
 ## License
 
-MIT - Made with 💞
+[MIT](./LICENSE) - Made with 💞
