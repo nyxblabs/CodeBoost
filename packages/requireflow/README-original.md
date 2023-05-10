@@ -1,5 +1,6 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-requireflow_light.png#gh-light-mode-only">
+<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-requireflow_black.png#gh-dark-mode-only">
 </p>
 
 [![npm version][npm-version-src]][npm-version-href]
@@ -26,7 +27,7 @@ yarn add requireflow
 ## Usage
 
 ```ts
-function createRequire(filename: string | URL): NodeRequire
+function createRequire (filename: string | URL): NodeRequire;
 ```
 
 ```ts

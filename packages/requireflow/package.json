@@ -16,7 +16,7 @@
   "main": "./requireflow.js",
   "types": "./requireflow.d.ts",
   "scripts": {
-    "prepublishOnly": "node prepare-readme-for-npm.mjs && nyxr build",
+    "prepublishOnly": "node prepare-readme-for-npm.mjs",
     "postpublish": "node restore-readme.mjs",
     "lint": "eslint .",
     "lint:fix": "eslint .",
