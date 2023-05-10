@@ -201,6 +201,41 @@ joinURL('a', '/b', '/c')
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/url-ops/README.md">README</a> file.
 </details>
 
+<h3 style="color:#14F195;">📦envizor</h3>
+
+🔍🌍 Discover the perfect JavaScript environment with Enenvizor! This powerful package offers lightning-fast detection of the current environment with incredible accuracy. 🕵️‍♂️ Easily tailor your code to the right environment and avoid compatibility issues with the advanced detection capabilities of Enenvizor. 💪🏼 Take your development to the next level and ensure optimal performance with Enenvizor!
+<details>
+<summary><strong>Example:</strong></summary>
+
+## Usage
+
+```ts
+// ESM
+import { isWindows } from 'envizor'
+
+// CommonJS
+const { isCI } = require('envizor')
+```
+
+Available exports:
+
+- `hasTTY`
+- `hasWindow`
+- `isCI`
+- `isDebug`
+- `isDevelopment`
+- `isLinux`
+- `isMacOS`
+- `isMinimal`
+- `isProduction`
+- `isTest`
+- `isWindows`
+- `platform`
+- `provider`
+<br>
+Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/envizor/README.md">README</a> file.
+</details>
+
 ## 🚀 Installation
 
 You can install CodeBoost packages via NPM by running the following command:
