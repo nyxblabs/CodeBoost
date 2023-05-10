@@ -1,6 +1,6 @@
 {
   "name": "esmnxuts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": " 🛠️ Missing ESM utils for Node.js! Fill the gap with ease.",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
