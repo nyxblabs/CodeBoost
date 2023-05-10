@@ -1,8 +1,8 @@
 {
   "name": "requireflow",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "🛡️🔄 Easily backfill the module.createRequire method for your Node.js project with this package!",
-  "author": "",
+  "author": "dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
   "hompage": "https://💻nyxb.ws",
   "repository": {
@@ -13,28 +13,20 @@
   "bugs": {
     "url": "https://github.com/nyxlabs/CodeBoost/issues"
   },
-  "sideEffects": false,
-  "main": "index.cjs",
-  "types": "index.d.ts",
-  "exports": {
-    "types": "./dist/index.d.ts",
-    "import": "./dist/index.mjs",
-    "require": "./dist/index.cjs"
-  },
+  "main": "./requireflow.js",
+  "types": "./requireflow.d.ts",
   "scripts": {
-    "build": "unbuild",
     "prepublishOnly": "node prepare-readme-for-npm.mjs && nyxr build",
     "postpublish": "node restore-readme.mjs",
-    "lint": "eslint --ext .ts,.js,.mjs,.cjs .",
-    "lint:fix": "eslint --fix --ext .ts,.js,.mjs,.cjs .",
+    "lint": "eslint .",
+    "lint:fix": "eslint .",
     "release": "pnpm publish"
   },
   "dependencies": {},
-  "devDependencies": {
-    "@codeboost/tsconfig": "workspace:*"
-  },
+  "devDependencies": {},
   "files": [
-    "dist"
+    "requireflow.js",
+    "requireflow.d.ts"
   ],
   "keywords": []
 }

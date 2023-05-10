@@ -179,11 +179,7 @@ importers:
         specifier: ^0.15.0
         version: 0.15.0
 
-  packages/requireflow:
-    devDependencies:
-      '@codeboost/tsconfig':
-        specifier: workspace:*
-        version: link:../tsconfig
+  packages/requireflow: {}
 
   packages/tsconfig: {}
 

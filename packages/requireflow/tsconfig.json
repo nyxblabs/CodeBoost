@@ -1,9 +1,0 @@
-{
-  "extends": "@codeboost/tsconfig/base.json",
-  "compilerOptions": {
-    "rootDir": "."
-  },
-  "include": [
-    "src",
-  ],
-}
