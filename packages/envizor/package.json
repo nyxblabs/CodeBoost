@@ -8,14 +8,13 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nyxlabs/CodeBoost.git",
-    "directory": "packages/"
+    "directory": "packages/envizor"
   },
   "bugs": {
     "url": "https://github.com/nyxlabs/CodeBoost/issues"
   },
   "sideEffects": false,
   "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     "types": "./dist/index.d.ts",
@@ -23,12 +22,13 @@
     "require": "./dist/index.cjs"
   },
   "scripts": {
+    "prepublishOnly": "node prepare-readme-for-npm.mjs && nyxr build",
+    "postpublish": "node restore-readme.mjs",
     "build": "unbuild",
     "dev": "vitest",
     "lint": "eslint --ext .ts .",
     "lint:fix": "eslint --fix --ext .ts .",
-    "prepack": "unbuild",
-    "release": "nxr test && pnpm publish",
+    "release": "nyxr test && pnpm publish",
     "test": "nyxr lint && vitest run --coverage"
   },
   "dependencies": {},

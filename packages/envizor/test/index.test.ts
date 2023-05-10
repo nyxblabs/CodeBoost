@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import * as stdEnv from '../src'
 
-describe('std-env', () => {
+describe('envizor', () => {
    it('has expected exports', () => {
       expect(Object.keys(stdEnv)).toMatchInlineSnapshot(`
       [
