@@ -1,6 +1,6 @@
 {
   "name": "esmnxuts",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": " 🛠️ Missing ESM utils for Node.js! Fill the gap with ease.",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
@@ -24,8 +24,7 @@
     "require": "./dist/index.cjs"
   },
   "scripts": {
-    "prepublishOnly": "node prepare-readme-for-npm.mjs && nyxr build",
-    "postpublish": "node restore-readme.mjs",
+    "prepack": "nyxr build",
     "build": "unbuild",
     "dev": "vitest",
     "lint": "eslint --ext .ts,.js src test",
