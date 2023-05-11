@@ -1,10 +1,8 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-fetch-for-all.png">
-</p>
-
-[![][npm-version-src]][npm-version-href]
-[![][packagephobia-src]][packagephobia-href]
+[![cover][cover-src]][cover-href]
+[![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![JSDocs][jsdocs-src]][jsdocs-href]
+[![License][license-src]][license-href]
 
 
 > A redistribution of [node-fetch v3](https://github.com/node-fetch/node-fetch) for better backward and forward compatibility.
@@ -143,17 +141,16 @@ Made with 💞
 fetch-for-all is published under the MIT LICENSE
 
 <!-- Badges -->
-[npm-version-src]: https://flat.badgen.net/npm/v/fetch-for-all
+
+[npm-version-src]: https://img.shields.io/npm/v/fetch-for-all?style=flat&colorA=18181B&colorB=14F195
 [npm-version-href]: https://npmjs.com/package/fetch-for-all
-
-[npm-downloads-src]: https://flat.badgen.net/npm/dm/fetch-for-all
+[npm-downloads-src]: https://img.shields.io/npm/dm/fetch-for-all?style=flat&colorA=18181B&colorB=14F195
 [npm-downloads-href]: https://npmjs.com/package/fetch-for-all
+[license-src]: https://img.shields.io/github/license/nyxblabs/CodeBoost.svg?style=flat&colorA=18181B&colorB=14F195
+[license-href]: https://github.com/nyxblabs/CodeBoost/blob/main/LICENSE
+[jsdocs-src]: https://img.shields.io/badge/jsDocs.io-reference-18181B?style=flat&colorA=18181B&colorB=14F195
+[jsdocs-href]: https://www.jsdocs.io/package/fetch-for-all
 
-[packagephobia-src]: https://flat.badgen.net/packagephobia/install/fetch-for-all
-[packagephobia-href]: https://packagephobia.com/result?p=fetch-for-all
-
-[packagephobia-s-src]: https://flat.badgen.net/packagephobia/install/fetch-for-all?label=fetch-for-all&scale=.9
-[packagephobia-s-href]: https://packagephobia.com/result?p=fetch-for-all
-
-[packagephobia-s-alt-src]: https://flat.badgen.net/packagephobia/install/node-fetch?label=node-fetch&scale=.9
-[packagephobia-s-alt-href]: https://packagephobia.com/result?p=node-fetch
+<!-- Covers -->
+[cover-src]: https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-github-fetch-for-all.png
+[cover-href]: https://💻nyxb.ws

@@ -1,10 +1,9 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-nyxdefer_light.png#gh-light-mode-only">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-nyxdefer_black.png#gh-dark-mode-only">
-</p>
-
+[![cover][cover-src]][cover-href]
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![bundle][bundle-src]][bundle-href]
+[![JSDocs][jsdocs-src]][jsdocs-href]
+[![License][license-src]][license-href]
 
 
 > 🚀 An improved debounce function with Promise support.
@@ -85,8 +84,18 @@ Based on [sindresorhus/p-debounce](https://github.com/sindresorhus/p-debounce).
 Published under [MIT License](./LICENSE).
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nyxdefer?style=flat-square
-[npm-version-href]: https://npmjs.com/package/nyxdefer
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/nyxdefer?style=flat-square
+[npm-version-src]: https://img.shields.io/npm/v/nyxdefer?style=flat&colorA=18181B&colorB=14F195
+[npm-version-href]: https://npmjs.com/package/nyxdefer
+[npm-downloads-src]: https://img.shields.io/npm/dm/nyxdefer?style=flat&colorA=18181B&colorB=14F195
 [npm-downloads-href]: https://npmjs.com/package/nyxdefer
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/nyxdefer?style=flat&colorA=18181B&colorB=14F195
+[bundle-href]: https://bundlephobia.com/result?p=nyxdefer
+[license-src]: https://img.shields.io/github/license/nyxblabs/CodeBoost.svg?style=flat&colorA=18181B&colorB=14F195
+[license-href]: https://github.com/nyxblabs/CodeBoost/blob/main/LICENSE
+[jsdocs-src]: https://img.shields.io/badge/jsDocs.io-reference-18181B?style=flat&colorA=18181B&colorB=14F195
+[jsdocs-href]: https://www.jsdocs.io/package/nyxdefer
+
+<!-- Covers -->
+[cover-src]: https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-github-nyxdefer.png
+[cover-href]: https://💻nyxb.ws

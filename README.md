@@ -236,6 +236,29 @@ Available exports:
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/envizor/README.md">README</a> file.
 </details>
 
+<h3 style="color:#14F195;">📦 requireflow</h3>
+
+🔌👨‍💻 Polyfill Node.js `module.createRequire` with ease using Requireflow! Ensure your code is fully supported across different Node.js versions and upgrade your development experience. 🚀
+<details>
+<summary><strong>Example:</strong></summary>
+
+## Usage
+
+```ts
+function createRequire(filename: string | URL): NodeRequire
+```
+
+```ts
+const createRequire = require('requireflow')
+
+const myRequire = createRequire('path/to/test.js')
+const myModule = myRequire('./test-sibling-module')
+```
+
+<br>
+Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/requireflow/README.md">README</a> file.
+</details>
+
 ## 🚀 Installation
 
 You can install CodeBoost packages via NPM by running the following command:

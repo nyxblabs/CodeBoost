@@ -1,15 +1,11 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-nyxdefaults_light.png#gh-light-mode-only">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-nyxdefaults_black.png#gh-dark-mode-only">
-</p>
-
-> Assign default properties, recursively 🔄. Lightweight and Fast 💨.
-
+[![cover][cover-src]][cover-href]
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![bundle][bundle-src]][bundle-href]
+[![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
+> Assign default properties, recursively 🔄. Lightweight and Fast 💨.
 ## Install
 
 Install package:
@@ -163,12 +159,19 @@ type Options = Nyxdefaults<{ foo: 'bar' }, [{}, { bar: 'baz' }, { something: 42 
 
 MIT. Made with 💞
 
-<!-- Refs -->
-[npm-version-src]: https://img.shields.io/npm/v/nyxdefaults?style=flat&colorA=18181B&colorB=F0DB4F
+<!-- Badges -->
+
+[npm-version-src]: https://img.shields.io/npm/v/nyxdefaults?style=flat&colorA=18181B&colorB=14F195
 [npm-version-href]: https://npmjs.com/package/nyxdefaults
-[npm-downloads-src]: https://img.shields.io/npm/dm/nyxdefaults?style=flat&colorA=18181B&colorB=F0DB4F
+[npm-downloads-src]: https://img.shields.io/npm/dm/nyxdefaults?style=flat&colorA=18181B&colorB=14F195
 [npm-downloads-href]: https://npmjs.com/package/nyxdefaults
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/nyxdefaults?style=flat&colorA=18181B&colorB=F0DB4F
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/nyxdefaults?style=flat&colorA=18181B&colorB=14F195
 [bundle-href]: https://bundlephobia.com/result?p=nyxdefaults
-[license-src]: https://img.shields.io/github/license/nyxblabs/utilities/tree/main/packages/nyxdefaults.svg?style=flat&colorA=18181B&colorB=F0DB4F
-[license-href]: https://github.com/nyxblabs/utilities/tree/main/packages/nyxdefaults/LICENSE
+[license-src]: https://img.shields.io/github/license/nyxblabs/CodeBoost.svg?style=flat&colorA=18181B&colorB=14F195
+[license-href]: https://github.com/nyxblabs/CodeBoost/blob/main/LICENSE
+[jsdocs-src]: https://img.shields.io/badge/jsDocs.io-reference-18181B?style=flat&colorA=18181B&colorB=14F195
+[jsdocs-href]: https://www.jsdocs.io/package/nyxdefaults
+
+<!-- Covers -->
+[cover-src]: https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-github-nyxdefaults.png
+[cover-href]: https://💻nyxb.ws

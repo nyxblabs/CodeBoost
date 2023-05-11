@@ -1,11 +1,9 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-nyxhash_light.png#gh-light-mode-only">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-nyxhash_black.png#gh-dark-mode-only">
-</p>
-
+[![cover][cover-src]][cover-href]
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![bundle size][bundle-src]][bundle-href]
+[![bundle][bundle-src]][bundle-href]
+[![JSDocs][jsdocs-src]][jsdocs-href]
+[![License][license-src]][license-href]
 
 > ⚡ Super fast hashing library
 
@@ -168,9 +166,18 @@ Based on [puleos/object-hash](https://github.com/puleos/object-hash) by [Scott P
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/nyxhash?style=flat-square
+[npm-version-src]: https://img.shields.io/npm/v/nyxhash?style=flat&colorA=18181B&colorB=14F195
 [npm-version-href]: https://npmjs.com/package/nyxhash
-[npm-downloads-src]: https://img.shields.io/npm/dm/nyxhash?style=flat-square
+[npm-downloads-src]: https://img.shields.io/npm/dm/nyxhash?style=flat&colorA=18181B&colorB=14F195
 [npm-downloads-href]: https://npmjs.com/package/nyxhash
-[bundle-src]: https://flat.badgen.net/bundlephobia/minzip/nyxhash
-[bundle-href]: https://bundlephobia.com/package/nyxhash
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/nyxhash?style=flat&colorA=18181B&colorB=14F195
+[bundle-href]: https://bundlephobia.com/result?p=nyxhash
+[license-src]: https://img.shields.io/github/license/nyxblabs/CodeBoost.svg?style=flat&colorA=18181B&colorB=14F195
+[license-href]: https://github.com/nyxblabs/CodeBoost/blob/main/LICENSE
+[jsdocs-src]: https://img.shields.io/badge/jsDocs.io-reference-18181B?style=flat&colorA=18181B&colorB=14F195
+[jsdocs-href]: https://www.jsdocs.io/package/nyxhash
+
+<!-- Covers -->
+[cover-src]: https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-github-nyxhash.png
+[cover-href]: https://💻nyxb.ws
+

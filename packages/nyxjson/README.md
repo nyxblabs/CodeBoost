@@ -1,14 +1,11 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-nyxjson_light.png#gh-light-mode-only">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-nyxjson_black.png#gh-dark-mode-only">
-</p>
-
-> A faster, secure and convenient alternative for [`JSON.parse`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse):
-
+[![cover][cover-src]][cover-href]
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![bundle][bundle-src]][bundle-href]
+[![JSDocs][jsdocs-src]][jsdocs-href]
+[![License][license-src]][license-href]
 
+> A faster, secure and convenient alternative for [`JSON.parse`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse):
 ## Usage
 
 ### Node.js
@@ -154,13 +151,22 @@ Fastest is JSON.parse (try-catch)
 
 ## License
 
-MIT. Made with 💞
+[MIT](./LICENSE) - Made with 💞
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nyxjson?style=flat&colorA=18181B&colorB=F0DB4F
+
+[npm-version-src]: https://img.shields.io/npm/v/nyxjson?style=flat&colorA=18181B&colorB=14F195
 [npm-version-href]: https://npmjs.com/package/nyxjson
-[npm-downloads-src]: https://img.shields.io/npm/dm/nyxjson?style=flat&colorA=18181B&colorB=F0DB4F
+[npm-downloads-src]: https://img.shields.io/npm/dm/nyxjson?style=flat&colorA=18181B&colorB=14F195
 [npm-downloads-href]: https://npmjs.com/package/nyxjson
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/nyxjson?style=flat&colorA=18181B&colorB=F0DB4F
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/nyxjson?style=flat&colorA=18181B&colorB=14F195
 [bundle-href]: https://bundlephobia.com/result?p=nyxjson
+[license-src]: https://img.shields.io/github/license/nyxblabs/CodeBoost.svg?style=flat&colorA=18181B&colorB=14F195
+[license-href]: https://github.com/nyxblabs/CodeBoost/blob/main/LICENSE
+[jsdocs-src]: https://img.shields.io/badge/jsDocs.io-reference-18181B?style=flat&colorA=18181B&colorB=14F195
+[jsdocs-href]: https://www.jsdocs.io/package/nyxjson
+
+<!-- Covers -->
+[cover-src]: https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-github-nyxjson.png
+[cover-href]: https://💻nyxb.ws
 

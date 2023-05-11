@@ -1,11 +1,9 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-envizor_light.png#gh-light-mode-only">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-envizor_black.png#gh-dark-mode-only">
-</p>
-
-[![npm](https://img.shields.io/npm/dm/envizor.svg?style=flat-square)](http://npmjs.com/package/envizor)
-[![npm](https://img.shields.io/npm/v/envizor.svg?style=flat-square)](http://npmjs.com/package/envizor)
-[![bundlephobia](https://img.shields.io/bundlephobia/min/envizor/latest.svg?style=flat-square)](https://bundlephobia.com/result?p=envizor)
+[![cover][cover-src]][cover-href]
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![bundle][bundle-src]][bundle-href]
+[![JSDocs][jsdocs-src]][jsdocs-href]
+[![License][license-src]][license-href]
 
 > 🕵️‍♂️ Detect JS environment easily.
 
@@ -59,3 +57,20 @@ List of well known providers can be found from [./src/providers.ts](./src/provid
 ## License
 
 [MIT](./LICENSE) - Made with 💞
+
+<!-- Badges -->
+
+[npm-version-src]: https://img.shields.io/npm/v/envizor?style=flat&colorA=18181B&colorB=14F195
+[npm-version-href]: https://npmjs.com/package/envizor
+[npm-downloads-src]: https://img.shields.io/npm/dm/envizor?style=flat&colorA=18181B&colorB=14F195
+[npm-downloads-href]: https://npmjs.com/package/envizor
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/envizor?style=flat&colorA=18181B&colorB=14F195
+[bundle-href]: https://bundlephobia.com/result?p=envizor
+[license-src]: https://img.shields.io/github/license/nyxblabs/CodeBoost.svg?style=flat&colorA=18181B&colorB=14F195
+[license-href]: https://github.com/nyxblabs/CodeBoost/blob/main/LICENSE
+[jsdocs-src]: https://img.shields.io/badge/jsDocs.io-reference-18181B?style=flat&colorA=18181B&colorB=14F195
+[jsdocs-href]: https://www.jsdocs.io/package/envizor
+
+<!-- Covers -->
+[cover-src]: https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-github-envizor.png
+[cover-href]: https://💻nyxb.ws

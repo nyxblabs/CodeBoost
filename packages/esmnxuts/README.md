@@ -1,7 +1,8 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-esmutils_light.png#gh-light-mode-only">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-esmutils_black.png#gh-dark-mode-only">
-</p>
+[![cover][cover-src]][cover-href]
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![JSDocs][jsdocs-src]][jsdocs-href]
+[![License][license-src]][license-href]
 
 > Missing [ECMAScript module](https://nodejs.org/api/esm.html) utils for Node.js
 >
@@ -502,3 +503,18 @@ console.log(sanitizeFilePath("C:\\te#st\\[...slug].jsx"));
 ## License
 
 [MIT](./LICENSE) - Made with 💞
+
+<!-- Badges -->
+
+[npm-version-src]: https://img.shields.io/npm/v/esmnxuts?style=flat&colorA=18181B&colorB=14F195
+[npm-version-href]: https://npmjs.com/package/esmnxuts
+[npm-downloads-src]: https://img.shields.io/npm/dm/esmnxuts?style=flat&colorA=18181B&colorB=14F195
+[npm-downloads-href]: https://npmjs.com/package/esmnxuts
+[license-src]: https://img.shields.io/github/license/nyxblabs/CodeBoost.svg?style=flat&colorA=18181B&colorB=14F195
+[license-href]: https://github.com/nyxblabs/CodeBoost/blob/main/LICENSE
+[jsdocs-src]: https://img.shields.io/badge/jsDocs.io-reference-18181B?style=flat&colorA=18181B&colorB=14F195
+[jsdocs-href]: https://www.jsdocs.io/package/esmnxuts
+
+<!-- Covers -->
+[cover-src]: https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-github-esmnxuts.png
+[cover-href]: https://💻nyxb.ws
