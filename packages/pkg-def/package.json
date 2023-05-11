@@ -1,6 +1,6 @@
 {
   "name": "pkg-def",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "🔧 Enhance your Node.js development experience with powerful utilities and TypeScript definitions for managing your `package.json` and `tsconfig.json files`.",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
@@ -22,11 +22,10 @@
     "require": "./dist/index.cjs"
   },
   "scripts": {
-    "prepublishOnly": "node prepare-readme-for-npm.mjs && nyxr build",
-    "postpublish": "node restore-readme.mjs",
+    "prepack": "nyxr build",
     "build": "unbuild",
     "dev": "vitest",
-    "release": "pnpm publish",
+    "release": "nyxr test && pnpm publish",
     "lint": "eslint --ext .ts,.js,.mjs,.cjs .",
     "lint:fix": "eslint --fix --ext .ts,.js,.mjs,.cjs .",
     "test": "vitest run --coverage",
