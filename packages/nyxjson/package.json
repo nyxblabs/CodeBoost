@@ -1,6 +1,6 @@
 {
   "name": "nyxjson",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "⚡ A faster, secure and convenient alternative for JSON.parse",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
@@ -25,8 +25,7 @@
     }
   },
   "scripts": {
-    "prepublishOnly": "node prepare-readme-for-npm.mjs && nyxr build",
-    "postpublish": "node restore-readme.mjs",
+    "prepack": "nyxr build",
     "bench": "nyxr build && node ./bench.cjs",
     "build": "unbuild",
     "dev": "vitest dev",
