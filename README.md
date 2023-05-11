@@ -126,52 +126,6 @@ nyxjson()
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/nyxjson/README.md">README</a> file.
 </details>
 
-### [📦 esmnxuts](https://github.com/nyxblabs/CodeBoost/tree/main/packages/esmnxuts)
-
-💡 Set default object properties quickly and easily with lightning-fast performance using this package. Perfect for developers looking to streamline their coding process, it offers an efficient way to assign default properties to objects. ⚡️ Get your work done in a flash with this package's lightning-fast performance.
-<details>
-<summary><strong>Example:</strong></summary>
-
-## Resolving ESM modules
-
-Several utilities to make ESM resolution easier:
-
-- Respecting [ECMAScript Resolver algorithm](https://nodejs.org/dist/latest-v14.x/docs/api/esm.html#esm_resolver_algorithm)
-- Exposed from Node.js implementation
-- Windows paths normalized
-- Supporting custom `extensions` and `/index` resolution
-- Supporting custom `conditions`
-- Support resolving from multiple paths or urls
-<br>
-Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/esmnxuts/README.md">README</a> file.
-</details>
-
-### [📦 pkg-def](https://github.com/nyxblabs/CodeBoost/tree/main/packages/pkg-def)
-
-🔧📦 Enhance your Node.js dev experience with powerful utils and TypeScript definitions for managing package.json and tsconfig.json files.
-<details>
-<summary><strong>Example:</strong></summary>
-
-### `readPackageJSON`
-
-```js
-import { readPackageJSON } from 'pkg-def'
-const localPackageJson = await readPackageJSON()
-// or
-const packageJson = await readPackageJSON('/fully/resolved/path/to/folder')
-```
-
-### `writePackageJSON`
-
-```js
-import { writePackageJSON } from 'pkg-def'
-
-await writePackageJSON('path/to/package.json', pkg)
-```
-<br>
-Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/pkg-def/README.md">README</a> file.
-</details>
-
 ### [📦 url-ops](https://github.com/nyxblabs/CodeBoost/tree/main/packages/url-ops)
 
 🔗🚀 Powerful URL operations for Node.js with url-ops. Simplify your URL manipulation with a collection of functions that ensures properly encoded and consistent URLs. Normalize, resolve, and parse URLs with ease.
