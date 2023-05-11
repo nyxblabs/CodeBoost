@@ -1,6 +1,6 @@
 {
   "name": "fetch-for-all",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "🕸️ A better redistribution of node-fetch",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
@@ -42,10 +42,10 @@
     }
   },
   "scripts": {
+    "prepack": "unbuild",
     "build": "unbuild",
     "lint": "eslint --ext .ts,.js,.mjs,.cjs .",
     "lint:fix": "eslint --fix --ext .ts,.js,.mjs,.cjs .",
-    "prepack": "unbuild",
     "changelog": "nyxlx changelogen --output",
     "release": "nyxr test && pnpm publish",
     "test": "nyxr lint && nyxr build && vitest run --coverage"
