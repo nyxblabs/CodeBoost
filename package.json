@@ -26,9 +26,7 @@
   },
   "dependencies": {
     "@nyxb/nyxi": "^0.0.28",
-    "acorn": "^8.8.2",
-    "esmnxuts": "workspace:^",
-    "url-ops": "workspace:^"
+    "acorn": "^8.8.2"
   },
   "version": "0.0.1"
 }
