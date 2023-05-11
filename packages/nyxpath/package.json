@@ -1,6 +1,6 @@
 {
   "name": "nyxpath",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Universal filesystem path utils",
   "author": "Dennis Ollhoff <contact@nxb.xyz>",
   "license": "MIT",
@@ -29,8 +29,8 @@
     }
   },
   "scripts": {
-    "prepublishOnly": "nyxr build",
-    "release": "pnpm vitest run && pnpm publish",
+    "prepack": "nyxr build",
+    "release": "nyxr test && pnpm publish",
     "build": "unbuild",
     "dev": "vitest",
     "lint": "eslint --ext .ts .",

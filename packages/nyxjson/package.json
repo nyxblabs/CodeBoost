@@ -31,7 +31,7 @@
     "dev": "vitest dev",
     "lint": "eslint --ext .ts .",
     "changelog": "nyxlx changelogen@latest --output",
-    "release": "pnpm test && pnpm publish",
+    "release": "nyxr test && pnpm publish",
     "test": "nyxr lint && vitest run --coverage"
   },
   "dependencies": {},
