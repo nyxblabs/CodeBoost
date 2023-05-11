@@ -1,6 +1,6 @@
 {
   "name": "requireflow",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "🛡️🔄 Easily backfill the module.createRequire method for your Node.js project with this package!",
   "author": "dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
@@ -16,8 +16,6 @@
   "main": "./requireflow.js",
   "types": "./requireflow.d.ts",
   "scripts": {
-    "prepublishOnly": "node prepare-readme-for-npm.mjs",
-    "postpublish": "node restore-readme.mjs",
     "lint": "eslint .",
     "lint:fix": "eslint .",
     "release": "pnpm publish"
