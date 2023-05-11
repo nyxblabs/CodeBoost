@@ -1,3 +1,4 @@
+[![cover][cover-src]][cover-href]
 # CodeBoost 🚀💻💪
 
 🚀 CodeBoost is a comprehensive monorepo of Node.js tools and libraries designed to enhance developer productivity and code quality. It offers a suite of packages, including a fast hashing library, an improved debounce function with promise support, and much more! 💻 Boost your Node.js development experience with CodeBoost's powerful features and improve your coding efficiency. 🧰 Choose from a variety of packages that best fit your needs and start coding smarter today!
@@ -281,3 +282,7 @@ We welcome contributions from developers to help improve CodeBoost. If you find 
 ## 📄 License
 
 CodeBoost is released under the MIT License. For more information, see the [LICENSE](./LICENSE) file.
+
+<!-- Covers -->
+[cover-src]: https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-github-codeboost.png
+[cover-href]: https://💻nyxb.ws
