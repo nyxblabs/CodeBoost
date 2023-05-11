@@ -1,8 +1,9 @@
-![Cover](https://github.com/nyxblabs/nyxcfg/blob/main/.github/assets/cover-nyxpath.jpg)
-
-[![version][npm-v-src]][npm-v-href]
-[![downloads][npm-d-src]][npm-d-href]
-[![size][size-src]][size-href]
+[![cover][cover-src]][cover-href]
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![bundle][bundle-src]][bundle-href]
+[![JSDocs][jsdocs-src]][jsdocs-href]
+[![License][license-src]][license-href]
 
 >💡 **Why**
 >
@@ -56,19 +57,23 @@ import { filename, normalizeAliases, resolveAlias } from 'nyxpath/utils'
 
 ## 🔒 License
 
-MIT. Made with 💞
+[MIT](./LICENSE) - Made with 💞
 
 Some code used from Node.js project. See [LICENSE](./LICENSE).
 
-<!-- Refs -->
-[npm-v-src]: https://img.shields.io/npm/v/nyxpath?style=flat-square
-[npm-v-href]: https://npmjs.com/package/nyxpath
+<!-- Badges -->
 
-[npm-d-src]: https://img.shields.io/npm/dm/nyxpath?style=flat-square
-[npm-d-href]: https://npmjs.com/package/nyxpath
+[npm-version-src]: https://img.shields.io/npm/v/nyxpath?style=flat&colorA=18181B&colorB=14F195
+[npm-version-href]: https://npmjs.com/package/nyxpath
+[npm-downloads-src]: https://img.shields.io/npm/dm/nyxpath?style=flat&colorA=18181B&colorB=14F195
+[npm-downloads-href]: https://npmjs.com/package/nyxpath
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/nyxpath?style=flat&colorA=18181B&colorB=14F195
+[bundle-href]: https://bundlephobia.com/result?p=nyxpath
+[license-src]: https://img.shields.io/github/license/nyxblabs/CodeBoost.svg?style=flat&colorA=18181B&colorB=14F195
+[license-href]: https://github.com/nyxblabs/CodeBoost/blob/main/LICENSE
+[jsdocs-src]: https://img.shields.io/badge/jsDocs.io-reference-18181B?style=flat&colorA=18181B&colorB=14F195
+[jsdocs-href]: https://www.jsdocs.io/package/nyxpath
 
-[github-actions-src]: https://img.shields.io/github/workflow/status/nyxblabs/nyxpath/ci/main?style=flat-square
-[github-actions-href]: https://github.com/nyxblabs/nyxpath/actions?query=workflow%3Aci
-
-[size-src]: https://packagephobia.now.sh/badge?p=nyxpath
-[size-href]: https://packagephobia.now.sh/result?p=nyxpath
+<!-- Covers -->
+[cover-src]: https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-github-nyxpath.png
+[cover-href]: https://💻nyxb.ws

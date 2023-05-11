@@ -1,7 +1,8 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-pkg-def_light.png#gh-light-mode-only">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-pkg-def_black.png#gh-dark-mode-only">
-</p>
+[![cover][cover-src]][cover-href]
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![JSDocs][jsdocs-src]][jsdocs-href]
+[![License][license-src]][license-href]
 
 > 🔧 Enhance your Node.js development experience with powerful utilities and TypeScript definitions for managing your `package.json` and `tsconfig.json files`.
 
@@ -137,3 +138,18 @@ const pkg = defineTSConfig({})
 ## License
 
 [MIT](./LICENSE) - Made with 💞
+
+<!-- Badges -->
+
+[npm-version-src]: https://img.shields.io/npm/v/pkg-def?style=flat&colorA=18181B&colorB=14F195
+[npm-version-href]: https://npmjs.com/package/pkg-def
+[npm-downloads-src]: https://img.shields.io/npm/dm/pkg-def?style=flat&colorA=18181B&colorB=14F195
+[npm-downloads-href]: https://npmjs.com/package/pkg-def
+[license-src]: https://img.shields.io/github/license/nyxblabs/CodeBoost.svg?style=flat&colorA=18181B&colorB=14F195
+[license-href]: https://github.com/nyxblabs/CodeBoost/blob/main/LICENSE
+[jsdocs-src]: https://img.shields.io/badge/jsDocs.io-reference-18181B?style=flat&colorA=18181B&colorB=14F195
+[jsdocs-href]: https://www.jsdocs.io/package/pkg-def
+
+<!-- Covers -->
+[cover-src]: https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-github-pkg-def.png
+[cover-href]: https://💻nyxb.ws

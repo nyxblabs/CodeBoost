@@ -1,12 +1,9 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-url-ops_light.png#gh-light-mode-only">
-<img src="https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-url-ops_black.png#gh-dark-mode-only">
-</p>
-
+[![cover][cover-src]][cover-href]
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![bundle][bundle-src]][bundle-href]
 [![JSDocs][jsdocs-src]][jsdocs-href]
+[![License][license-src]][license-href]
 
 >**🧑‍🤝‍🧑URL utils for humans**.</br>
 >🔗🚀 Powerful and easy-to-use URL operations for Node.js developers with url-ops. Simplify your URL manipulation with a collection of functions that ensures URLs are properly encoded, has consistent encoding, and supports relative URLs. The package provides a consistent URL parser, encoding, and decoding independent of environment and offers punycode support for host encoding. Normalize, resolve, and parse URLs with ease using url-ops.
@@ -248,14 +245,21 @@ isEqual('/foo bar', '/foo%20bar', { encoding: true })
 
 ## License
 
-[MIT](./LICENSE)
+[MIT](./LICENSE) - Made with 💞
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/url-ops?style=flat&colorA=18181B&colorB=F0DB4F
+
+[npm-version-src]: https://img.shields.io/npm/v/url-ops?style=flat&colorA=18181B&colorB=14F195
 [npm-version-href]: https://npmjs.com/package/url-ops
-[npm-downloads-src]: https://img.shields.io/npm/dm/url-ops?style=flat&colorA=18181B&colorB=F0DB4F
+[npm-downloads-src]: https://img.shields.io/npm/dm/url-ops?style=flat&colorA=18181B&colorB=14F195
 [npm-downloads-href]: https://npmjs.com/package/url-ops
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/url-ops?style=flat&colorA=18181B&colorB=F0DB4F
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/url-ops?style=flat&colorA=18181B&colorB=14F195
 [bundle-href]: https://bundlephobia.com/result?p=url-ops
-[jsdocs-src]: https://img.shields.io/badge/jsDocs.io-reference-18181B?style=flat&colorA=18181B&colorB=F0DB4F
+[license-src]: https://img.shields.io/github/license/nyxblabs/CodeBoost.svg?style=flat&colorA=18181B&colorB=14F195
+[license-href]: https://github.com/nyxblabs/CodeBoost/blob/main/LICENSE
+[jsdocs-src]: https://img.shields.io/badge/jsDocs.io-reference-18181B?style=flat&colorA=18181B&colorB=14F195
 [jsdocs-href]: https://www.jsdocs.io/package/url-ops
+
+<!-- Covers -->
+[cover-src]: https://raw.githubusercontent.com/nyxblabs/utilities/main/.github/assets/cover-github-url-ops.png
+[cover-href]: https://💻nyxb.ws
