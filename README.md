@@ -75,7 +75,7 @@ console.log(hash({ foo: 'bar' }))
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/nyxhash/README.md">README</a> file.
 </details>
 
-<h3 style="color:#14F195;">📦nyxpath</h3>
+### [📦 nyxpath](https://github.com/nyxblabs/CodeBoost/tree/main/packages/nyxpath)
 
 📦🔗 This package offers identical exports to Node.js's built-in path module, but with normalization on all operations and written in modern ESM/Typescript. 🌟 Plus, it has no dependency on Node.js! 🤯 Mind-blowing, right?
 <details>
