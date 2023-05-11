@@ -1,6 +1,6 @@
 {
   "name": "nyxdefer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A lightweight and well-tested debounce function with native Promise support",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
