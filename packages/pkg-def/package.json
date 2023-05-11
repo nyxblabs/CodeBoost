@@ -33,7 +33,7 @@
     "changelog": "nyxlx changelogen --output"
   },
   "dependencies": {
-    "esmnxuts": "workspace:*",
+    "esmnxuts": "^0.0.5",
     "nyxpath": "^0.0.3",
     "jsonc-parser": "^3.2.0"
   },

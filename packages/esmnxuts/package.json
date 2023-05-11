@@ -1,6 +1,6 @@
 {
   "name": "esmnxuts",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": " 🛠️ Missing ESM utils for Node.js! Fill the gap with ease.",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
@@ -35,8 +35,8 @@
   "dependencies": {
     "acorn": "^8.8.2",
     "nyxpath": "^0.0.3",
-    "pkg-def": "workspace:*",
-    "url-ops": "workspace:^"
+    "pkg-def": "^0.0.2",
+    "url-ops": "^0.0.4"
   },
   "devDependencies": {
     "@codeboost/tsconfig": "workspace:*",

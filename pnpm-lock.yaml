@@ -64,12 +64,12 @@ importers:
         version: 8.8.2
       nyxpath:
         specifier: ^0.0.3
-        version: link:../nyxpath
+        version: 0.0.3
       pkg-def:
-        specifier: workspace:*
+        specifier: ^0.0.2
         version: link:../pkg-def
       url-ops:
-        specifier: workspace:^
+        specifier: ^0.0.4
         version: link:../url-ops
     devDependencies:
       '@codeboost/tsconfig':
@@ -163,14 +163,14 @@ importers:
   packages/pkg-def:
     dependencies:
       esmnxuts:
-        specifier: workspace:*
+        specifier: ^0.0.5
         version: link:../esmnxuts
       jsonc-parser:
         specifier: ^3.2.0
         version: 3.2.0
       nyxpath:
         specifier: ^0.0.3
-        version: link:../nyxpath
+        version: 0.0.3
     devDependencies:
       '@codeboost/tsconfig':
         specifier: workspace:*
@@ -3529,6 +3529,10 @@ packages:
     dependencies:
       boolbase: 1.0.0
     dev: true
+
+  /nyxpath@0.0.3:
+    resolution: {integrity: sha512-qNtHt76H5iGwO3Oa9aoYgzLlUxM1JBsT75TpRFAB2D8d+P2Xnf0ZJdrU/SjwGKngQdhPJ6unIsNkt2XfTkUlAg==}
+    dev: false
 
   /object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
