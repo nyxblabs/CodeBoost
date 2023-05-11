@@ -1,6 +1,6 @@
 {
   "name": "envizor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "🕵️‍♂️ Detect JS environment easily.",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
@@ -32,7 +32,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@codeboost/tsconfig": "workspace:*" 
+    "@codeboost/tsconfig": "workspace:*"
   },
   "files": [
     "dist"
