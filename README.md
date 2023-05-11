@@ -5,7 +5,7 @@
 
 <h2 style="color:#9945FF;">📦 Packages</h2>
 
-<h3 style="color:#14F195;">📦nyxdefaults</h3>
+### [📦 nyxdefaults](https://github.com/nyxblabs/CodeBoost/tree/main/packages/nyxdefaults)
 
 🔧 This package offers lightning-fast default property assignment for objects, providing an efficient solution for developers. 💡 Simplify your code and save time with its recursive property assignment feature.
 <details>
@@ -37,7 +37,7 @@ nyxdefaultsArrayFn({
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/nyxdefaults/README.md">README</a> file.
 </details>
 
-<h3 style="color:#14F195;">📦nyxdefer</h3>
+### [📦 nyxdefer](https://github.com/nyxblabs/CodeBoost/tree/main/packages/nyxdefer)
 
 🔄 Avoid duplicate function calls and improve performance with this highly configurable debounce function that also supports Promises. 💡 With well-tested functionality, you can trust that your function will only be called once while the Promise is being resolved.
 <details>
@@ -56,7 +56,7 @@ const nyxdeferred = debounce(async () => {
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/nyxdefer/README.md">README</a> file.
 </details>
 
-<h3 style="color:#14F195;">📦nyxhash</h3>
+### [📦 nyxhash](https://github.com/nyxblabs/CodeBoost/tree/main/packages/nyxhash)
 
 🔒 This package provides a super-fast hashing library optimized for Node.js environments. 💨 With its high-speed hashing function, it's perfect for processing large data sets efficiently.
 <details>
@@ -87,7 +87,7 @@ Have you ever wondered why the path separators for Windows and macOS, Linux, and
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/nyxpath/README.md">README</a> file.
 </details>
 
-<h3 style="color:#14F195;">📦fetch-for-all</h3>
+### [📦 fetch-for-all](https://github.com/nyxblabs/CodeBoost/tree/main/packages/fetch-for-all)
 
 🔄 A redistribution of node-fetch v3 for better backward and forward compatibility. 🔋 It supports native global support and offers a compact build with zero dependencies. 💻📦 It can also support both CommonJS (require) and ESM (import) usage.
 <details>
@@ -105,7 +105,7 @@ const { fetch, Blob, FormData, Headers, Request, Response, AbortController } = r
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/fetch-for-all/README.md">README</a> file.
 </details>
 
-<h3 style="color:#14F195;">📦 nyxjson</h3>
+### [📦 nyxjson](https://github.com/nyxblabs/CodeBoost/tree/main/packages/nyxjson)
 
 📈 This package fills the gaps in essential ESM module features for Node.js. 💡 Enhance your Node.js development with optimal ESM support. 🔌 Lightning-fast default property assignment for objects. 🚀 Stay ahead of the curve with this package.
 <details>
@@ -126,7 +126,7 @@ nyxjson()
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/nyxjson/README.md">README</a> file.
 </details>
 
-<h3 style="color:#14F195;">📦esmnxuts</h3>
+### [📦 esmnxuts](https://github.com/nyxblabs/CodeBoost/tree/main/packages/esmnxuts)
 
 💡 Set default object properties quickly and easily with lightning-fast performance using this package. Perfect for developers looking to streamline their coding process, it offers an efficient way to assign default properties to objects. ⚡️ Get your work done in a flash with this package's lightning-fast performance.
 <details>
@@ -146,7 +146,7 @@ Several utilities to make ESM resolution easier:
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/esmnxuts/README.md">README</a> file.
 </details>
 
-<h3 style="color:#14F195;">📦pkg-def</h3>
+### [📦 pkg-def](https://github.com/nyxblabs/CodeBoost/tree/main/packages/pkg-def)
 
 🔧📦 Enhance your Node.js dev experience with powerful utils and TypeScript definitions for managing package.json and tsconfig.json files.
 <details>
@@ -172,7 +172,7 @@ await writePackageJSON('path/to/package.json', pkg)
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/pkg-def/README.md">README</a> file.
 </details>
 
-<h3 style="color:#14F195;">📦url-ops</h3>
+### [📦 url-ops](https://github.com/nyxblabs/CodeBoost/tree/main/packages/url-ops)
 
 🔗🚀 Powerful URL operations for Node.js with url-ops. Simplify your URL manipulation with a collection of functions that ensures properly encoded and consistent URLs. Normalize, resolve, and parse URLs with ease.
 <details>
@@ -202,7 +202,7 @@ joinURL('a', '/b', '/c')
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/url-ops/README.md">README</a> file.
 </details>
 
-<h3 style="color:#14F195;">📦envizor</h3>
+### [📦 evizor](https://github.com/nyxblabs/CodeBoost/tree/main/packages/envizor)
 
 🔍🌍 Discover the perfect JavaScript environment with Enenvizor! This powerful package offers lightning-fast detection of the current environment with incredible accuracy. 🕵️‍♂️ Easily tailor your code to the right environment and avoid compatibility issues with the advanced detection capabilities of Enenvizor. 💪🏼 Take your development to the next level and ensure optimal performance with Enenvizor!
 <details>
@@ -237,7 +237,7 @@ Available exports:
 Learn more in the <a href="https://github.com/nyxblabs/CodeBoost/blob/main/packages/envizor/README.md">README</a> file.
 </details>
 
-<h3 style="color:#14F195;">📦 requireflow</h3>
+### [📦 requireflow](https://github.com/nyxblabs/CodeBoost/tree/main/packages/requireflow)
 
 🔌👨‍💻 Polyfill Node.js `module.createRequire` with ease using Requireflow! Ensure your code is fully supported across different Node.js versions and upgrade your development experience. 🚀
 <details>
