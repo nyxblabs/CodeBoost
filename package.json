@@ -29,5 +29,6 @@
     "acorn": "^8.8.2",
     "esmnxuts": "workspace:^",
     "url-ops": "workspace:^"
-  }
+  },
+  "version": "0.0.1"
 }
