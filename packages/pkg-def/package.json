@@ -1,6 +1,6 @@
 {
   "name": "pkg-def",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "🔧 Enhance your Node.js development experience with powerful utilities and TypeScript definitions for managing your `package.json` and `tsconfig.json files`.",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
